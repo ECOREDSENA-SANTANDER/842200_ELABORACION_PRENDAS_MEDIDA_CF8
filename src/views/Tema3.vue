@@ -49,6 +49,10 @@
               .col-lg-12.col-md-9.col-9.mb-3
                 img.img-a.img-t(src='@/assets/curso/tema3/img06.svg' alt='tema3')
             h2.text-center Alfileres
+    p.mb-4 Para iniciar el descosido de prendas con tejidos planos se debe ubicar el desbaratador de modo que se vaya rompiendo toda la línea de costura, se debe finalizar retirando el exceso y, si es necesario, con la ayuda del cortahilos.
+    p.mb-4 Para iniciar el descosido de prendas con tejidos planos se debe ubicar el desbaratador de modo que se vaya rompiendo toda la línea de costura, se debe finalizar retirando el exceso y, si es necesario, con la ayuda del cortahilos.
+    p.mb-4 Para iniciar el descosido de prendas con tejidos planos se debe ubicar el desbaratador de modo que se vaya rompiendo toda la línea de costura, se debe finalizar retirando el exceso y, si es necesario, con la ayuda del cortahilos.
+    p.mb-4 Para iniciar el descosido de prendas con tejidos planos se debe ubicar el desbaratador de modo que se vaya rompiendo toda la línea de costura, se debe finalizar retirando el exceso y, si es necesario, con la ayuda del cortahilos.
 
 
     p.mb-4 Para iniciar el descosido de prendas con tejidos planos se debe ubicar el desbaratador de modo que se vaya rompiendo toda la línea de costura, se debe finalizar retirando el exceso y, si es necesario, con la ayuda del cortahilos.
