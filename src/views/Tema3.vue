@@ -10,50 +10,46 @@
     p.mb-4 En la confección de prendas de vestir suelen repetirse varios de los procesos cuya finalidad es buscar que la prenda quede acorde con los criterios técnicos que permitan su uso y comodidad por parte del cliente o consumidor. Es por ello que en este proceso, independientemente de si ya se tiene el producto terminado, aparecerán factores en los que las prendas ya no puedan ser usadas por el consumidor, entre estos factores pueden estar el aumento o disminución de peso, transformar una prenda de formal a casual, reutilizar prendas cuyo objetivo es que el ciclo de vida del producto pueda extenderse, entre otros. Por lo anterior cuando se habla de modificación de prenda, esta debe entenderse que fue realizada a partir de patrones y que siendo un molde puede llegar a transformarse y darle el uso esperado. En este apartado se iniciará desde el descosido y la transformación de moldes entendiéndose estos como las partes de una prenda.
     p.mb-4 Así, existen varias técnicas de descosido o desmontado. Para iniciar el arreglo de una prenda se hace necesario evaluar cómo fue confeccionada, para ello es indispensable analizar la técnica que fue empleada, si está forrada, sí solo está a máquina plana o combinada con plana y fileteadora, adicionalmente se pueden llegar a encontrar prendas con puntadas como collarín, etc. 
     
-    .row.mb-4
-      .col-4.d-flex
-        div.sombra2           
-          div
-            p.BorTit.ms-1 Cortahilos o despeluzador
-            figure
-              img(src='@/assets/curso/tema3/img01.svg', alt='Texto que describa la imagen')     
-              figcaption.figcaption2 Nota. Tomada de Herramientas (2021)       
-      .col-4.d-flex
-        div.sombra2          
-          div
-            p.BorTit.ms-1 Desbaratador
-            figure
-              img(src='@/assets/curso/tema3/img02.svg', alt='Texto que describa la imagen')     
-              figcaption.figcaption2 Nota. Tomada de Herramientas (2021) 
-      .col-4.d-flex
-        div.sombra2          
-          div
-            p.BorTit.ms-1 Metro
-            figure
-              img(src='@/assets/curso/tema3/img03.svg', alt='Texto que describa la imagen')     
-              figcaption.figcaption2 Nota. Tomada de Herramientas (2021) 
-    .row.mb-4
-      .col-4.d-flex
-        div.sombra2           
-          div
-            p.BorTit.ms-1 Tiza de sastre
-            figure
-              img(src='@/assets/curso/tema3/img04.svg', alt='Texto que describa la imagen')     
-              figcaption.figcaption2 Nota. Tomada de Vestuario (s.f.)
-      .col-4.d-flex
-        div.sombra2          
-          div
-            p.BorTit.ms-1 Tijeras
-            figure
-              img(src='@/assets/curso/tema3/img05.svg', alt='Texto que describa la imagen')     
-              figcaption.figcaption2 Nota. Tomada de Herramientas (2021)
-      .col-4.d-flex
-        div.sombra2          
-          div
-            p.BorTit.ms-1 Alfileres
-            figure
-              img(src='@/assets/curso/tema3/img06.svg', alt='Texto que describa la imagen')     
-              figcaption.figcaption2 Nota. Tomada de 123rf (2021)
+    
+    .row.justify-content-center 
+      .col-lg-12.col-md-12.col-12
+        SlyderF(columnas="col-lg-6 col-xl-4")
+          .tarjeta.color-acento-botones.p-4
+            .row.justify-content-center.mb-3
+              .col-3
+                img(src='@/assets/curso/tema3/img01.svg', alt='tema3')
+              h2.text-center Cortahilos o despeluzador
+
+          .tarjeta.color-acento-botones.p-4
+            .row.justify-content-center.mb-3
+              .col-3
+                img(src='@/assets/curso/tema3/img02.svg', alt='tema3') 
+              h2.text-center Desbaratador
+      
+          .tarjeta.color-acento-botones.p-4
+            .row.justify-content-center.mb-3
+              .col-3
+                img(src='@/assets/curso/tema3/img03.svg' alt='tema3')
+              h2.text-center Metro
+      
+          .tarjeta.color-acento-botones.p-4
+            .row.justify-content-center.mb-3
+              .col-3
+                img(src='@/assets/curso/tema3/img04.svg' alt='tema3')
+            h2.text-center Tiza de sastre
+
+          .tarjeta.color-acento-botones.p-4
+            .row.justify-content-center.mb-3
+              .col-3
+                img(src='@/assets/curso/tema3/img05.svg' alt='tema3')
+            h2.text-center Tijeras
+          
+          .tarjeta.color-acento-botones.p-4
+            .row.justify-content-center.mb-3
+              .col-3
+                img(src='@/assets/curso/tema3/img06.svg' alt='tema3')
+            h2.text-center Alfileres
+
 
     p.mb-4 Para iniciar el descosido de prendas con tejidos planos se debe ubicar el desbaratador de modo que se vaya rompiendo toda la línea de costura, se debe finalizar retirando el exceso y, si es necesario, con la ayuda del cortahilos.
     .row.mb-4

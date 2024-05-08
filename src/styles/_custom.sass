@@ -1,18 +1,54 @@
-.BorTit
-  border-left: 5px solid $color-acento-botones
-  padding: 6px 0px 6px 10px
-  margin-top: 6px
+.banner-principal-decorativo
+  &-3
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    left: 70%
 
-
-.figcaption2 
-    display: block
-    background-color: #F7F1D7
-    padding: 0.75em 1.5em
-    font-size: 0.8em
-    font-weight: 700
+  &-1
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 45%
+    left: 5%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 10%
+    right: 35%
   
-.sin-fondo
-  background-color: white !important
+.banner-principal .tarjeta 
+  img, svg 
+    display: block;
+    border-style: hidden;
+  figure, picture, img, svg 
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+
+.banner-principal__row 
+    justify-content: space-evenly;
+
+@media (min-width: 576px) 
+    .ps-sm-5 
+        padding-left: 7rem !important;
+@media (min-width: 576px) 
+    .py-sm-5 
+        padding-top: 3rem !important;
+        padding-bottom: -4rem !important;
+    
+
+.tarjeta.color-acento-conte--borde
+    background-color: #E9F9F5;
+    border-radius: 10px
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+  
+
 
 .fondo-gris
   background-color: #F6F6F6 !important
@@ -161,9 +197,77 @@ iframe
 .bloque-texto-a.color-primario 
     background-color: #F5F5F2
 
+///import css-variables from 
 
+.cajaverde
+  background-color: #BAEFE4
+  border-radius: 18px
+  
+  
+.bg1
+  background: url('../assets/curso/bg1.svg')
+  border-radius: 15px
+  background-size: 100% 120%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem 
+  
+.titulo-principal__numero span 
+    color: #060606;
+
+.bg2
+  background: url('../assets/curso/tema1/bg2.png')
+  border-radius: 15px
+  background-size: 100% 120%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem 
   
 
-  
+.img-t
+  width: auto
+  height: auto
+.img-a
+  display: block
+  margin: auto
 
-  
+.cajaverdec
+  background-color: #EEFBF8
+
+.titulo-sexto.color-acento-contenido 
+    border-left: 10px solid #BAEFE4
+    padding: 3px 0px 3px 10px;
+
+.tarjeta.color-acento-conte--borde
+    background-color: #E9F9F5;
+    border-radius: 10px
+
+.cajarosa
+  background-color: #FEF0EC;
+  border-radius: 20px
+
+.text-black
+  color: black
+
+.boton *, .boton--sm * 
+    color: #080707;
+
+.caja1 
+  background-color: #FEF5F3
+
+
+.texto-imagenes
+  background-color: #F8E2DC
+
+.cajarosaa
+  background-color: #F6EFEC
+
+.cajaroj
+  background-color: #F7D7CE
+
+.cajablanca
+  background-color: #fff

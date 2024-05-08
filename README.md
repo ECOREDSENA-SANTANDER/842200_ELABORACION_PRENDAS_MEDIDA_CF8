@@ -1,4 +1,4 @@
-# **sena-base-2021 v3.2.0**
+# **ecoredsena-base v7.0.1**
 
 ## **Enlace GitHubPages**
 
@@ -61,3 +61,6 @@ npm run lint
 ![instrucciones despues del primer push](src/assets/template/pasos.jpg 'Title')
 
 #
+
+## **Documentacion AOS**
+[https://github.com/michalsnik/aos](https://github.com/michalsnik/aos)

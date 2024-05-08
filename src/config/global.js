@@ -4,8 +4,22 @@ export default {
       'Modificación de prendas                                                   ',
     descripcionCurso:
       'Este componente permitirá generar una integración entre la anatomía, la prenda y el cliente, desde el análisis del cuerpo hasta la adaptación de piezas según los requerimientos de ajuste, el desarmado y procesos de adaptación manuales como en máquinas de coser, se hará a partir de la comunicación con el cliente.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.jpg'),
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/1.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/3.svg'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [
@@ -22,19 +36,19 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
+        icono: '',
         numero: '1',
         titulo: 'Atención al cliente y recepción de la prenda',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
+            icono: '',
             numero: '1.1',
             titulo: 'Análisis ergonómico del cliente',
             hash: 't_1_1',
           },
           {
-            icono: 'far fa-file-alt',
+            icono: '',
             numero: '1.2',
             titulo: 'Medición y señalizado de la prenda',
             hash: 't_1_2',
@@ -43,28 +57,28 @@ export default {
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
+        icono: '',
         numero: '2',
         titulo: 'Técnicas y proceso para arreglos de prendas',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
+        icono: '',
         numero: '3',
         titulo: 'Modificación y arreglos en las prendas de vestir',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
+        icono: '',
         numero: '4',
         titulo: 'Supraciclaje',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
+        icono: '',
         numero: '5',
         titulo: 'Acabados y terminados',
         desarrolloContenidos: true,
