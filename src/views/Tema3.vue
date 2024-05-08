@@ -16,38 +16,38 @@
         SlyderF(columnas="col-lg-6 col-xl-4")
           .tarjeta.color-acento-contenido.p-4
             .row.justify-content-center.mb-3
-              .col-3
-                img(src='@/assets/curso/tema3/img01.svg', alt='tema3')
-              h2.text-center Cortahilos o despeluzador
+              .col-lg-12.col-md-9.col-9.mb-3
+                img.img-a.img-t(src='@/assets/curso/tema3/img01.svg', alt='tema3')
+              h4.text-center Cortahilos o despeluzador
 
           .tarjeta.color-acento-contenido.p-4
             .row.justify-content-center.mb-3
-              .col-3
-                img(src='@/assets/curso/tema3/img02.svg', alt='tema3') 
+              .col-lg-12.col-md-9.col-9.mb-3
+                img.img-a.img-t(src='@/assets/curso/tema3/img02.svg', alt='tema3') 
               h2.text-center Desbaratador
       
           .tarjeta.color-acento-contenido.p-4
             .row.justify-content-center.mb-3
-              .col-3
-                img(src='@/assets/curso/tema3/img03.svg' alt='tema3')
+              .col-lg-12.col-md-9.col-9.mb-3
+                img.img-a.img-t(src='@/assets/curso/tema3/img03.svg' alt='tema3')
               h2.text-center Metro
       
           .tarjeta.color-acento-contenido.p-4
             .row.justify-content-center.mb-3
-              .col-3
-                img(src='@/assets/curso/tema3/img04.svg' alt='tema3')
+              .col-lg-12.col-md-9.col-9.mb-3
+                img.img-a.img-t(src='@/assets/curso/tema3/img04.svg' alt='tema3')
             h2.text-center Tiza de sastre
 
           .tarjeta.color-acento-contenido.p-4
             .row.justify-content-center.mb-3
-              .col-3
-                img(src='@/assets/curso/tema3/img05.svg' alt='tema3')
+              .col-lg-12.col-md-9.col-9.mb-3
+                img.img-a.img-t(src='@/assets/curso/tema3/img05.svg' alt='tema3')
             h2.text-center Tijeras
           
           .tarjeta.color-acento-contenido.p-4
             .row.justify-content-center.mb-3
-              .col-3
-                img(src='@/assets/curso/tema3/img06.svg' alt='tema3')
+              .col-lg-12.col-md-9.col-9.mb-3
+                img.img-a.img-t(src='@/assets/curso/tema3/img06.svg' alt='tema3')
             h2.text-center Alfileres
 
 
