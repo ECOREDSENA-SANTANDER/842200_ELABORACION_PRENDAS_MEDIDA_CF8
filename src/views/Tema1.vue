@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
       h1 Atención al cliente y recepción de la prenda
@@ -91,35 +91,37 @@
 
     p.mb-5 Cuando se habla de porte, se refiere a la disposición física de una persona. Los siguientes son las clases de cuerpos: 
     
-    TabsA.color-acento-botones.mb-5(data-aos="flip-up")
-      .tarjeta.color-acento-conte--borde.p-4(titulo="Cuerpo de porte normal")
-        .row.justify-content-center.align-items-top
-          .col-lg-6
-            h4 Cuerpo de porte normal
-            p Es cuando la espina dorsal, mantiene la curva superior en relación con la entrada de la región lumbar.
-          .col-lg-6.col-md-9.col-9
-            figure
-              img.img-a.img-t(src='@/assets/curso/tema1/immg1.svg', alt='tema1')
+    .row.justify-content-center.mb-5
+      .col-lg-12.col-md-12.col-12
+        TabsA.color-acento-botones.mb-5
+          .tarjeta.color-acento-conte--borde.p-4(titulo="Cuerpo de porte normal")
+            .row.justify-content-center.align-items-top
+              .col-lg-6
+                h4 Cuerpo de porte normal
+                p Es cuando la espina dorsal, mantiene la curva superior en relación con la entrada de la región lumbar.
+              .col-lg-6.col-md-9.col-9
+                figure
+                  img.img-a.img-t(src='@/assets/curso/tema1/immg1.svg', alt='tema1')
     
       
-      .tarjeta.color-acento-conte--borde.p-4(titulo="Cuerpo de espalda curva y tórax reprimiento")
-        .row.justify-content-center.align-items-top
-          .col-lg-6
-            h4 Cuerpo de espalda curva y tórax reprimiento
-            p Es el cuerpo que tiene la espina dorsal curva en la parte superior, dando origen a la inclinación del cuerpo hacia adelante y la entrada teniendo el pecho plano.
-          .col-lg-6.col-md-9.col-9
-            figure
-              img.img-a.img-t(src='@/assets/curso/tema1/immg2.svg', alt='tema1')
+          .tarjeta.color-acento-conte--borde.p-4(titulo="Cuerpo de espalda curva y tórax reprimiento")
+            .row.justify-content-center.align-items-top
+              .col-lg-6
+                h4 Cuerpo de espalda curva y tórax reprimiento
+                p Es el cuerpo que tiene la espina dorsal curva en la parte superior, dando origen a la inclinación del cuerpo hacia adelante y la entrada teniendo el pecho plano.
+              .col-lg-6.col-md-9.col-9
+                figure
+                  img.img-a.img-t(src='@/assets/curso/tema1/immg2.svg', alt='tema1')
               
 
-      .tarjeta.color-acento-conte--borde.p-4(titulo="Convexo")
-        .row.justify-content-center.align-items-top
-          .col-lg-6
-            h4 Convexo
-            p Se llama convexo al cuerpo que tiene en el centro la parte prominente. Se caracteriza este cuerpo por tener la espina dorsal inclinada hacia atrás dando origen que la cabeza se eleve con tendencia a irse hacia atrás. Se caracteriza también por tener el pecho desarrollado y las costillas planas.
-          .col-lg-6.col-md-9.col-9
-            figure
-              img.img-a.img-t(src='@/assets/curso/tema1/immg3.svg', alt='tema1')
+          .tarjeta.color-acento-conte--borde.p-4(titulo="Convexo")
+            .row.justify-content-center.align-items-top
+              .col-lg-6
+                h4 Convexo
+                p Se llama convexo al cuerpo que tiene en el centro la parte prominente. Se caracteriza este cuerpo por tener la espina dorsal inclinada hacia atrás dando origen que la cabeza se eleve con tendencia a irse hacia atrás. Se caracteriza también por tener el pecho desarrollado y las costillas planas.
+              .col-lg-6.col-md-9.col-9
+                figure
+                  img.img-a.img-t(src='@/assets/curso/tema1/immg3.svg', alt='tema1')
 
 
     .titulo-tercero
@@ -134,7 +136,7 @@
             .col-lg-5.col-md-9.col-9
               img.img-a.img-t(src="@/assets/curso/tema1/img15.svg")
             .col-lg-7.col-md-9.col-9
-              #t_1_2.titulo-segundo
+              #t_1_2.titulo-segundo.tit
                 h2 Infografía anomalías del cuerpo
               p.mb-4 Las principales causas de anomalías en el cuerpo
                 .col-sm-auto
@@ -151,7 +153,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.col-md-12.col-12
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img.img-a.img-t.d-none.d-lg-block(
+          .bloque-texto-g__img.img-a.img-t(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img16.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
