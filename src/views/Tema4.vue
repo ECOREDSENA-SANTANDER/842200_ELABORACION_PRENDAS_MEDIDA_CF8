@@ -10,19 +10,14 @@
 
     p.mb-4 El supraciclaje o upcycling como suele llamarse en inglés, está dedicado a la transformación de productos que normalmente se desechan, por otros que aporten un valor superior a la prenda. Esta práctica no debe confundirse con el reciclaje, ya que este concepto se enfoca en la reutilización mas no en la transformación, ahí radica la diferencia. Este término y práctica ha cobrado especial relevancia por la llamada economía circular en la que el modelo de sostenibilidad aplicado por empresas dedicadas a la producción de prendas es uno de sus principales promotores, esto dado las grandes cantidades de desecho textil que genera la industria de la moda.
     
-    .row.mb-5
-      .col-3
-      .col-6
-        p.BorTit.ms-1 Supraciclaje
-        figure
-          img(src='@/assets/curso/tema4/img01.svg', alt='Texto que describa la imagen')              
-      .col-3
+    .row.justify-content-center.mb-4 
+      .col-lg-6.col-md-10.col-10
+        .titulo-sexto.color-acento-contenido.mb-5
+          h5 Figura 6
+          | Supraciclaje
+        img.mb-3(src='@/assets/curso/tema4/img01.jpg', alt='tema4')  
+        
 
-    .row.mb-5
-      .col-8.d-flex.flex-column
-        //div.border Flex item 1
-        //div.border Flex item 2
-        //div.border(style="height:100%") Flex item 3
         p.mb-4 Entre varias de las ventajas que suele traer esta práctica están la reducción del consumo masivo de productos al alargar su vida útil, reducir las enormes cantidades de desecho textil, dar valor agregado a productos artesanales y las personas dedicadas al oficio, fomentar la sostenibilidad responsable desde quien realiza el producto hasta quien lo vende y entrega, además de contribuir al cuidado del medioambiente del planeta siendo este un objetivo perseguido por muchos.
         .cajon.color-primario.fondo-f.p-5.d-flex.align-items-center(style="height: 100%")
           p El SENA ha sido una de las instituciones que ha puesto su mira en generar productos bajo el supraciclaje, tomando pedazos de telas, prendas que han sido desechadas y que pasan por procesos cuidadosos de selección y separación de textiles en cuanto a su composición para construir propuestas novedosas, no solo aplicadas al vestuario, sino a elementos de protección en general (El Nuevo Siglo, 2017). Son muchos los retos que a empresarios e instituciones educativas les espera en cuanto a su aporte para ayudar al cuidado del planeta.
