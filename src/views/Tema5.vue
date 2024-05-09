@@ -8,34 +8,32 @@
         span 5
       h1 Acabados y terminados
 
-    p.mb-4 Los acabados en una prenda son los que le permiten darle el toque final, <b>muchas veces son los que realzan y les dan el elemento diferenciador.</b> Algunos de los terminados son despeluce de la prenda, el lavado si es necesario por algún proceso implementado, el planchado a vapor si es preferible, la medición y la entrega.
+    p.mb-4 Los acabados en una prenda son los que le permiten darle el toque final, muchas veces son los que realzan y les dan el elemento diferenciador. Algunos de los terminados son despeluce de la prenda, el lavado si es necesario por algún proceso implementado, el planchado a vapor si es preferible, la medición y la entrega.
 
-    .row.mb-5
-      .col-lg-2
-      .col-lg-8
-         .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/template/icono-pdf.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3.mb-1 INFOGRAFIA
-                  p.text-small Acabados y terminados
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10.col-md-12.col-12
+        .cajarosa.p-5
+          .row.justify-content-center.align-items-center
+            .col-lg-5.col-md-9.col-9
+              img.img-a.img-t(src="@/assets/curso/tema5/img15.svg")
+            .col-lg-7.col-md-9.col-9
+              #t_1_2.titulo-segundo.tit
+                h2 Infografía acabados y terminados
+              p.mb-4 Acabados y terminados. Para mayor información descargue la infografía.
                 .col-sm-auto
-                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Terminados y acabados.pdf')" target="_blank")
-                    span Descargar
+                  a.boton.color.my-4(:href="obtenerLink('/downloads/Terminados y acabados.pdf')" target="_blank")
+                    span.text-black Descargar
                     i.fas.fa-file-download
-      .col-lg-2
 
-    .row     
-      .col-12.px-5
-        a.anexo.mb-1(href="https://www.youtube.com/watch?v=I8adPpXG-n8&t=28s" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
-          .anexo__texto
-            p <b>Inspección de producto terminado.</b> Conoce cómo se debe realizar la revisión de las prendas y que estas cumplan de acuerdo a los criterios, se necesitan revisar midiendo cada una de las partes, dado que todo patrón es simétrico dependiendo del diseño y estas deberán responder a su vez a las medidas del cliente.
-      
+    h4.mb-4 Inspección de producto terminado
+
+    p.mb-5 Conoce cómo se debe realizar la revisión de las prendas y que estas cumplan de acuerdo a los criterios, se necesitan revisar midiendo cada una de las partes, dado que todo patrón es simétrico dependiendo del diseño y estas deberán responder a su vez a las medidas del cliente.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12.col-md-12.col-12
+        figure
+          .video.mb-1
+            iframe(width="1280" height="720" src="https://www.youtube.com/watch?v=I8adPpXG-n8&t=28s" title="Análisis y valoración de riesgos de ciberseguridad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video.
 </template>
 
 <script>

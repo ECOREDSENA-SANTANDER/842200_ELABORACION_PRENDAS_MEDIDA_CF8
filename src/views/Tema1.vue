@@ -138,7 +138,7 @@
             .col-lg-7.col-md-9.col-9
               #t_1_2.titulo-segundo.tit
                 h2 Infografía anomalías del cuerpo
-              p.mb-4 Las principales causas de anomalías en el cuerpo
+              p.mb-4 Las principales causas de anomalías en el cuerpo.
                 .col-sm-auto
                   a.boton.color.my-4(:href="obtenerLink('/downloads/CF8_B_2_Anomalias_Cuerpo.pdf')" target="_blank")
                     span.text-black Descargar
