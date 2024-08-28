@@ -1,15 +1,39 @@
 .banner-principal-decorativo
-  &-1
+  &-3
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 50%
+    left: 60%
+
+  &-1
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 38%
+    left: 0%
+    width: 125px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 15%
+    right: 52%
+  
+.banner-principal__row 
+    justify-content: space-around
 
+.banner-principal .tarjeta 
+  figure, picture, img, svg 
+    margin: 0
+    width: 84%
+    max-width: 90%
+@media (min-width: 1400px) 
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl 
+        max-width: 1320px
+    
+
+
+.tarjeta.color-acento-conte--borde
+    background-color: #E9F9F5;
+    border-radius: 10px
 
 @keyframes float1
   0%
@@ -17,3 +41,212 @@
 
   100%
     transform: translateY(0px)
+  
+
+
+.cajaverde
+  background-color: #BAEFE4
+  border-radius: 18px
+  
+  
+.bg1
+  background: url('../assets/curso/bg1.png')
+  border-radius: 30px
+  background-size: 100% 100%
+  background-repeat: no-repeat;
+  background-position: top; 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem 
+  
+.titulo-principal__numero span 
+    color: #060606;
+
+.bg2
+  background: url('../assets/curso/tema1/bg2.svg')
+  background-size: 100% 120%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem 
+  
+
+.img-t
+  width: auto
+  height: auto
+.img-a
+  display: block
+  margin: auto
+
+.cajaverdec
+  background-color: #F6FDFC
+
+.titulo-sexto.color-acento-contenido 
+    border-left: 10px solid #BAEFE4
+    padding: 3px 0px 3px 10px;
+
+.tarjeta.color-acento-conte--borde
+    background-color: #E9F9F5;
+    border-radius: 10px
+
+.cajarosa
+  background-color: #FEF0EC;
+  border-radius: 20px
+
+.text-black
+  color: black
+
+.boton *, .boton--sm * 
+    color: #080707;
+
+.caja1 
+  background-color: #FEF5F3
+
+.caja11 
+  background-color: #FEF5F3
+  height: 297px
+.caja111 
+  background-color: #FEF5F3
+  height: 297px
+.texto-imagenes
+  background-color: #F6EFEC
+
+.cajarosaa
+  background-color: #F6EFEC
+
+.cajaroj
+  background-color: #F7D7CE
+
+
+.cajablanca
+  background-color: #fff
+
+.titulo-segundo.tit:after 
+    content: '';
+    display: block;
+    height: 3px;
+    width: 140px;
+    border-left: solid 50px;
+    border-left-color: #55d3c7;
+
+.titulo-segundo:after 
+    content: ''
+    display: block
+    height: 3px
+    width: 140px
+    border-left: solid 50px
+    border-left-color: #baefe4
+    background-color: #e8e8e8
+
+
+
+.tarjeta.color-acento-contenido
+  height: 340px
+  width: 325px
+.bg3
+  background-color: #FEF5F3
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem 
+  
+.fondo-f
+  background-color: #DCF5EF !important
+
+.hr
+  border-bottom: 1px solid #AFAFAF !important
+
+.tab-bolde
+  font-weight: 900
+  color: #0E0103
+
+.hr 
+    border-bottom: 2.5px solid #73D8C0 !important;
+
+.fondo21
+  background-color: #73D8C0
+  border-radius: 12px
+
+.caja4 
+  background-color: #F9EBE7
+
+.th
+  background-color: white; 
+  border-bottom: 1px solid #E8E8E8;
+    
+.tt
+  background-color: #F6F6F6; 
+
+@media only screen and (max-width: 768px) 
+  .imagen-mobile 
+    display: block;
+@media only screen and (min-width: 769px) 
+  .imagen-mobile 
+    display: none;
+
+.tarjeta-slide.color-acento-contenido .tarjeta-slide__img 
+    background-color: #F5947A;
+
+.tabs-a__tab 
+    display: block
+    width: 100%
+    text-align: left
+    background-color: #E8E8E8
+    padding: 15px 20px
+    border-radius: 5px
+    color: #111e61
+    line-height: 1.2em
+
+
+.ulto
+  height: 175px
+
+
+.fa-chevron-right:before 
+    content: url('../assets/curso/tema3/dere.svg')
+
+.fa-chevron-left:before 
+    content: url('../assets/curso/tema3/izqui.svg')
+
+
+.tarjeta.color-acento-contenido.t1
+  content: url('../assets/curso/tema3/001.svg')
+
+.tarjeta.color-acento-contenido.t2
+  content: url('../assets/curso/tema3/002.svg')
+
+.tarjeta.color-acento-contenido.t3
+  content: url('../assets/curso/tema3/003.svg')
+
+.tarjeta.color-acento-contenido.t4
+  content: url('../assets/curso/tema3/004.svg')
+
+.tarjeta.color-acento-contenido.t5
+  content: url('../assets/curso/tema3/005.svg')
+
+.tarjeta.color-acento-contenido.t6
+  content: url('../assets/curso/tema3/006.svg')
+
+.num1
+  content: url('../assets/curso/tema3/num1.svg')
+
+.num2
+  content: url('../assets/curso/tema3/num2.svg')
+
+.num3
+  content: url('../assets/curso/tema3/num3.svg')
+
+.num4
+  content: url('../assets/curso/tema3/num4.svg')
+
+
+.color-priimario
+  background-color: #73D8C0
+  border-radius: 10px
+
+.color-acento-contenidot
+  background-color: #F3F9FF
+  border-radius: 0px 20px 20px 0px
+
+.mh-375
+  min-height: 375px 
