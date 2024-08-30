@@ -10,7 +10,7 @@
       h1 Introducción
     
     .row.bg1.align-items-center.mb-0
-      .col-lg-12.col-12.px-lg-5.px-4
+      .col-lg-12.col-12.px-lg-5
         p.mb-4 En el siguiente video se presenta una introducción a las temáticas y conceptos abordados en este componente:
         
         .row.justify-content-center.mb-5
