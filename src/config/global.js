@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Proceso de integración de datos y ETL',
+    componenteFormativo: 'Modificación de prendas',
     descripcionCurso:
-      'El recurso educativo presenta los conceptos, teorías, técnicas y herramientas empleadas en sistematización de datos. Se dan las pautas de las metodologías y paradigmas usados para el proceso ETL, el cual quizás, es el más importante a nivel técnico en la gestión de información, para la transformación y carga que deben realizarse para la visualización y análisis de datos. ',
+      'Este componente permitirá generar una integración entre la anatomía, la prenda y el cliente, desde el análisis del cuerpo hasta la adaptación de piezas según los requerimientos de ajuste, el desarmado y procesos de adaptación manuales como en máquinas de coser, se hará a partir de la comunicación con el cliente.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
@@ -130,89 +130,142 @@ export default {
   },
   complementario: [
     {
-      tema: 'Extracción y minería de datos',
+      tema: 'Adaptaciones y modificaciones de prendas de vestir',
       referencia:
-        'Conesa, C., J., y Curto, D., J. (2013). Introducción al Business Intelligence. Editorial UOC.',
-      tipo: 'Video',
-      link: 'https://youtu.be/FJ91HT6aNiM',
-    },
-    {
-      tema: 'Astera',
-      referencia:
-        'Astera software. (2020). Extracción de PDF y exportación a Excel en Astera ReportMiner.',
-      tipo: 'Blog',
-      link: 'https://www.astera.com/es/tipo/blog/extraer-datos-de-pdf-a-excel/',
-    },
-    {
-      tema: '<em>SQL</em>',
-      referencia:
-        'Learn SQL: The best & easiest way to learn SQL. (s. f.-a). SQL Easy.',
-      tipo: 'Blog',
-      link: 'https://www.sql-easy.com/es/',
-    },
-    {
-      tema: '<em>No-SQL</em>',
-      referencia:
-        'Canal Ecosistema de Recursos Educativos Digitales SENA. (2021). No-SQL.',
-      tipo: 'Video clase',
-      link: 'https://youtu.be/u1IKJMISMgs',
+        'Durán, D. (2013). Adaptaciones en prendas de vestir: arreglos y adaptaciones de prendas y artículos en textil y piel (UF1032). IC Editorial.',
+      tipo: 'Libro',
+      link:
+        'https://studylib.es/doc/9277926/adaptaciones-en-prendas-de-vestir.',
     },
   ],
   glosario: [
     {
-      termino: '<em>Bytes</em>',
+      termino: 'Piquetes',
       significado:
-        'Unidad de medida de información. 1 <em>byte</em> corresponde a 8 bits, y a partir de esta unidad se determina el volumen de la información.',
+        'línea corta (0,3 máximo 0, 5 cm) en dirección perpendicular al molde, señaladas en el patrón con el fin de facilitar la operación de confección, al indicar ubicaciones, y guiar al unir cortes.',
     },
     {
-      termino: '<em>Dashboard</em>',
+      termino: 'Procedimiento',
       significado:
-        'Tableros de mando, es el recurso que resulta a partir del proceso de <em>ETL</em>. Es la manera de consumir datos y proporcionar conocimiento del negocio.',
+        'Descripción precisa de los pasos para realizar un proceso. Es la respuesta al cómo hacer el proceso.',
     },
     {
-      termino: '<em>Datamart</em>',
+      termino: 'Proceso',
       significado:
-        'Es la versión específica de cada área del <em>Data Warehouse</em>, son los datos concentrados por cada área del negocio. Son subconjuntos de colección de datos que alimentan a la bodega de datos y el resto de los recursos analíticos.',
+        'Descripción general de los pasos de una actividad o conjunto de operaciones.',
     },
     {
-      termino: '<em>Machine Learning</em>',
+      termino: 'Talla',
       significado:
-        'área de la IA que se responsabiliza de procesos de aprendizaje en el contexto de los datos se establecen aprendizaje supervisado y no supervisado, dependiendo del modelo de aprendizaje se establecen los algoritmos para desarrollar modelos predictivos y prescriptivos según el modelo analítico.',
+        'Expresión normalizada que permite identificar a las personas para el uso de prendas de vestir.',
     },
     {
-      termino: '<em>IDE</em>',
+      termino: 'Hilvanar',
       significado:
-        '"<em>Integrated Development Environment</em>", en su traducción: Entorno de desarrollo integrado, se trata de una herramienta o entorno que integra otras herramientas, de esta manera el desarrollador no se preocupa de instalar recursos adicionales, todo estará en una sola herramienta que integra otras para que así, el profesional se dedique solo a la programación.',
+        'Coser a mano con la implementación de diversas puntadas, esto lo define su finalidad.',
     },
     {
-      termino: 'IA',
+      termino: 'Forro',
       significado:
-        'Abreviación de Inteligencia artificial. Área informática que simula procesos cognitivos humanos tales como aprendizaje, decisiones, y procesos complejos.',
+        'Tela que está integrada a una prenda, comparten patrón y molde pero estas difieren en largo, por ejemplo en chaquetas.',
+    },
+    {
+      termino: 'Bies',
+      significado:
+        'Término sinónimo de sesgo, quiere decir que fue cortado a un ángulo de 45°.',
+    },
+    {
+      termino: 'Entretela',
+      significado:
+        'base que estabiliza una pieza que servirá de refuerzo en vistas o partes que necesiten dar soporte a una estructura de la prenda.',
+    },
+    {
+      termino: 'Guata',
+      significado:
+        'Grupo de filamentos que sirven para acolchar y suele ser usado en hombreras.',
+    },
+    {
+      termino: 'Fibra textil',
+      significado:
+        'Grupo de filamentos que pueden ser de origen natural, sintéticas o artificial.',
     },
   ],
   referencias: [
     {
-      referencia:
-        'Curto Díaz, J. (2016). Introducción al business intelligence. Barcelona: Editorial UOC. eLibro.',
+      referencia: '1.000 cursos gratis (2019). Costura y sastrería.',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/101030 ',
+        'https://1000cursosgratis.com/curso-profesional-de-costura-y-sastreria/',
+    },
+    {
+      referencia: '123rf (2021). Imagen.',
+      link:
+        'https://es.123rf.com/photo_89500746_agujas-y-alfileres-sobre-fondo-blanco-dibujo-colorido-ilustraci%C3%B3n-de-accesorios-para-artesan%C3%ADas-vector.html',
+    },
+    {
+      referencia: '123rf. (2021). Imagen.',
+      link:
+        'https://es.123rf.com/photo_74730255_tipos-constituci%C3%B3n-del-cuerpo-femenino-peso-normal-y-delgada-figura-de-la-grasa-de-una-mujer-ectomorfo-.html',
     },
     {
       referencia:
-        'Gorenés Roig, J., Casas Roma, J., & Minguillón Alfonso, J. (2017). Minería de datos: modelos y algoritmos. Barcelona: Editorial UOC. eLibro.',
-      link:
-        ' https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/58656',
+        'De Duarte, N. (1983). Conocimientos básicos de corte. Unidad instruccional No. 3 [Ebook]. Servicio Nacional de Aprendizaje SENA.',
+      link: 'https://hdl.handle.net/11404/1432.',
     },
     {
       referencia:
-        'Pang, A., Markovski, M., & Ristik, M. (22 de septiembre de 2022). Los 10 principales proveedores de software de análisis y BI, tamaño del mercado y pronóstico del mercado 2021-2026. Apps Run the World.',
+        'García, A. (2018). Sistema de reciclaje de textiles post-consumo para el desarrollo de productos de economía circular en la ciudad de Bogotá, D.C. [Tesis de maestría]. Universidad Distrital, Bogotá, Colombia.',
       link:
-        'https://www.appsruntheworld.com/top-10-analytics-and-bi-software-vendors-and-market-forecast/',
+        'https://repository.udistrital.edu.co/bitstream/handle/11349/13550/Garc%EDaAcostaM%F3nicaViviana2018.pdf;jsessionid=B3275F3F4782A5F7AF1F12BF67314DD5?sequence=1',
+    },
+    {
+      referencia: 'Herramientas. (2021). Herramientas para taller de costura.',
+      link: 'https://herramientas.tv/herramientas-para-taller-de-costura/',
     },
     {
       referencia:
-        'Stibo system MDM. (octubre de 2019). ¿Qué es la gestión de datos maestros?. Stibo system.',
-      link: 'https://www.stibosystems.com/es/what-is-master-data-management',
+        'Inexmoda. (s.f.). Fashion Snoops. Sistema de Bibliotecas SENA.',
+      link: 'https://www-fashionsnoops-com.bdigital.sena.edu.co/Default.aspx',
+    },
+    {
+      referencia: 'Istock. (2021). Imagen',
+      link: 'https://www.istockphoto.com/es/fotos/sastre',
+    },
+    {
+      referencia:
+        'Knight, L. (2012). Secretos de una buena costurera. Editorial Océano Ámbar.',
+      link: '',
+    },
+    {
+      referencia: 'Luisa Pagnoli. (2021). Luisa Pagnoli.',
+      link: 'https://www.luisaspagnoli.it/it_it/',
+    },
+    {
+      referencia: 'Naii. (2015). 3 maneras de descoser.',
+      link:
+        'https://www.naiicostura.com/3-maneras-de-descoser-costura-overlock/',
+    },
+    {
+      referencia:
+        'Plásticamente bilingüe. (2021). El cuerpo humano: mi versión.',
+      link:
+        'https://plasticamentebilingue.blogspot.com/2020/05/el-cuerpo-humano-mi-version-de-keith.html',
+    },
+    {
+      referencia: 'Sea. (2021). Upcycling.',
+      link: 'http://sea.com.uy/upcycling-una-alternativa-de-reciclaje-textil/',
+    },
+    {
+      referencia: 'Skarlet Costura. (2021). Cómo descoser.',
+      link: 'https://skarlett.es/como-descoser/',
+    },
+    {
+      referencia: 'Vestuario. (s.f.). Tiza de sastre herramienta de costura.',
+      link:
+        'http://www.vestuariocr.com/costura-general/tecnicas-de-costura/181-tiza-de-sastre-herramientas-de-costura-para-que-sirve-como-funciona-aprende-a-coser.html',
+    },
+    {
+      referencia: 'Zicla. (2019). Residuos textiles.',
+      link: 'https://www.zicla.com/blog/residuos-textiles-reciclaje-ropa/',
     },
   ],
   creditos: [
@@ -235,33 +288,39 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Jaime Hernán Tejada',
+          nombre: 'Ledy Johana Velásquez Hernández',
           cargo: 'Experto Temático',
-          centro: 'Regional Norte de Santander- Centro CIES',
+          centro: 'Regional Antioquia - Diseño, confección y moda',
         },
         {
-          nombre: 'Giovanna Andrea Escobar Ospina',
-          cargo: 'Diseñador Instruccional',
-          centro: 'Regional Norte de Santander- Centro CIES',
+          nombre: 'Paola Angélica Castro Salazar',
+          cargo: 'Experto temático',
+          centro: 'Regional Antioquia - Diseño, confección y moda',
         },
         {
-          nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Asesora pedagógica y metodológica ',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+          nombre: 'Paula Andrea Taborda Ortiz',
+          cargo: 'Diseñador instruccional',
+          centro: 'Regional distrito capital - Centro de diseño y metrología',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Revisora metodológica y pedagógica',
+          centro: 'Centro de Diseño y Metrología',
         },
         {
           nombre: 'José Gabriel Ortiz Abella',
           cargo: 'Corrector de estilo',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología.',
-        },
-        {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable Equipo de Desarrollo Curricular',
           centro:
-            'Regional Santander – Centro Industrial del Diseño y la Manufactura',
+            'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
         },
         {
-          nombre: 'Sandra Paola Morales Páez',
+          nombre: 'Carolina Jiménez Suescún',
           cargo: 'Evaluadora Instruccional',
           centro: 'Regional Santander - Centro Agroturístico',
         },
@@ -286,7 +345,7 @@ export default {
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Lucenith Pinilla Moreno',
+          nombre: 'Pedro Alonso Bolivar González',
           cargo: 'Actividad Didáctica',
           centro: 'Regional Santander - Centro Agroturístico',
         },

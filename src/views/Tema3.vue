@@ -11,15 +11,37 @@
     p.mb-4(data-aos="fade-left") Así, existen varias técnicas de descosido o desmontado. Para iniciar el arreglo de una prenda se hace necesario evaluar cómo fue confeccionada, para ello es indispensable analizar la técnica que fue empleada, si está forrada, sí solo está a máquina plana o combinada con plana y fileteadora, adicionalmente se pueden llegar a encontrar prendas con puntadas como collarín, etc. 
     p.mb-4(data-aos="fade-left") A continuación, se ilustran algunas herramientas utilizadas para la modificación de prendas de vestir: 
     
-    .row   
-      .col-lg-12   
-        SlyderF(columnas="col-lg-6 col-xl-4").mb-5(data-aos="fade-right")
-          .tarjeta.color-acento-contenido.t1.p-4
-          .tarjeta.color-acento-contenido.t2.p-4
-          .tarjeta.color-acento-contenido.t3.p-4
-          .tarjeta.color-acento-contenido.t4.p-4
-          .tarjeta.color-acento-contenido.t5.p-4
-          .tarjeta.color-acento-contenido.t6.p-4
+    SlyderF(columnas="col-lg-6 col-md-6 col-xl-4").mb-4
+      .tarjeta.color-acento-contenido.p-3
+        .row.justify-content-center.mb-5
+          .col-11.mb-3
+            img(src='@/assets/curso/tema3/o1.svg' alt='AvatarTop')
+        h4.text-center Cortahilos o despeluzador
+      .tarjeta.color-acento-contenido.p-3
+        .row.justify-content-center.mb-4
+          .col-10.mb-1
+            img(src='@/assets/curso/tema3/o2.svg' alt='AvatarTop')
+        h4.text-center Desbaratador
+      .tarjeta.color-acento-contenido.p-4
+        .row.justify-content-center.mb-5
+          .col-12.mb-1
+            img.my-4(src='@/assets/curso/tema3/o3.svg' alt='AvatarTop')
+        h4.text-center Metro
+      .tarjeta.color-acento-contenido.p-4
+        .row.justify-content-center.mb-5
+          .col-11
+            img(src='@/assets/curso/tema3/o4.svg' alt='AvatarTop')
+        h4.text-center Tiza de sastre
+      .tarjeta.color-acento-contenido.p-2
+        .row.justify-content-center.mb-5
+          .col-12.mb-3
+            img(src='@/assets/curso/tema3/o5.svg' alt='AvatarTop')
+        h4.text-center Tijeras
+      .tarjeta.color-acento-contenido.p-4
+        .row.justify-content-center.mb-5
+          .col-10.mb-2
+            img(src='@/assets/curso/tema3/o6.svg' alt='AvatarTop')
+        h4.text-center Alfileres
   
 
     p.mb-4(data-aos="fade-left") Para iniciar el descosido de prendas con tejidos planos se debe ubicar el desbaratador de modo que se vaya rompiendo toda la línea de costura, se debe finalizar retirando el exceso y, si es necesario, con la ayuda del cortahilos.
@@ -29,13 +51,13 @@
       | Proceso de descosido
     .bg3.p-5.mb-4
       .row.justify-content-center.mb-0
-        .col-lg-4.col-md-9.col-9.mb-3
+        .col-lg-4.col-md-6.col-12.mb-3
           h4.mb-4.text-center Desbaratar costura plana
           img(data-aos="zoom-in")(src='@/assets/curso/tema3/img07.png', alt='la figura presenta los pasos para descoser una prenda con costura sencilla.')  
-        .col-lg-4.col-md-9.col-9.mb-3
+        .col-lg-4.col-md-6.col-12.mb-3
           h4.mb-4.text-center Apertura de textiles
           img(data-aos="zoom-in")(src='@/assets/curso/tema3/img08.png', alt='la figura presenta los pasos para descoser una prenda con costura sencilla.')  
-        .col-lg-4.col-md-9.col-9.mb-3
+        .col-lg-4.col-md-6.col-12.mb-3
           h4.mb-4.text-center Separación de las piezas
           img(data-aos="zoom-in")(src='@/assets/curso/tema3/img09.png', alt='la figura presenta los pasos para descoser una prenda con costura sencilla.')  
       figcaption Nota. Tomada de Skarlet Costura (2021) 
@@ -48,26 +70,27 @@
     .row.justify-content-center.mb-4
       .col-lg-8.col-md-12.col-12
         .row.justify-content-center.align-items-center.mb-4
-          .col-lg-6.col-md-12.col-12
+          .col-lg-6.col-md-6.col-12
             .num1.img-a.img-t
             h4.text-center Romper puntadas superiores
             img(data-aos="zoom-in")(src='@/assets/curso/tema3/ima1.svg', alt='La figura presenta el paso a paso para descoser una prenda fileteada.')  
-          .col-lg-6.col-md-12.col-12
+          .col-lg-6.col-md-6.col-12
             .num2.img-a.img-t
             h4.text-center Sacar los hilos cortados
             img(data-aos="zoom-in")(src='@/assets/curso/tema3/ima2.svg', alt='La figura presenta el paso a paso para descoser una prenda fileteada.')  
         .row.justify-content-center.align-items-center.mb-4
-          .col-lg-6.col-md-12.col-12
+          .col-lg-6.col-md-6.col-12
             .num3.img-a.img-t
             h4.text-center Romper las puntadas de la aguja
             img(data-aos="zoom-in")(src='@/assets/curso/tema3/ima3.svg', alt='La figura presenta el paso a paso para descoser una prenda fileteada.')  
-          .col-lg-6.col-md-12.col-12
+          .col-lg-6.col-md-6.col-12
             .num4.img-a.img-t
             h4.text-center Tirar la hebra
             img(data-aos="zoom-in")(src='@/assets/curso/tema3/ima4.svg', alt='La figura presenta el paso a paso para descoser una prenda fileteada.')  
-    p.mb-5(data-aos="fade-left") Una vez se tienen desarmadas las piezas que sean necesarias para iniciar con el arreglo, estas se contemplarán como los patrones que son en realidad, por lo anterior, el siguiente apartado contendrá cómo hacer los arreglos respectivos para las modificaciones.
     
-    .row.justify-content-center.mb-5(data-aos="fade-right")
+    p.mb-4(data-aos="fade-left") Una vez se tienen desarmadas las piezas que sean necesarias para iniciar con el arreglo, estas se contemplarán como los patrones que son en realidad, por lo anterior, el siguiente apartado contendrá cómo hacer los arreglos respectivos para las modificaciones.
+    
+    .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-8.col-md-9.col-9
         .cajon.color-primario.fondo-f.p-4   
           p.mb-0 Cuando se hace un arreglo de prenda y se tiene una buena comprensión de los patrones, desbaratar todo para los expertos no es necesario, esto se logra con la práctica.

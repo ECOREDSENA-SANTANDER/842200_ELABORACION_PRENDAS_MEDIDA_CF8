@@ -46,7 +46,7 @@
   
           .row.justify-content-center.mb-4(data-aos="fade-right")
             .col-lg-10.col-md-12.col-12
-              h4 Acortar una pieza         
+              h3 Acortar una pieza         
           
           .row.justify-content-center.mb-5
             .col-lg-10.col-md-12.col-12
@@ -60,9 +60,9 @@
                 
           .row.justify-content-center.mb-4
             .col-lg-10.col-md-12.col-12
-              h4 Arreglo en el pecho
+              h3 Arreglo en el pecho
           
-          .row.justify-content-center.mb-5(data-aos="fade-right")
+          .row.justify-content-center.mb-2(data-aos="fade-right")
             .col-lg-10.col-md-12.col-12
               .cajarosaa.p-4.mb-4
                 .row.justify-content-center
@@ -97,7 +97,7 @@
     p.mb-4(data-aos="fade-left") En las técnicas y procesos para los arreglos de prendas, también existen aquellos que se enfocan en los insumos artesanales. Cuando se habla de técnicas manuales utilizadas por modistas y sastres, se refiere a una cadena de pasos ejecutados con el cuidado en cada detalle y de forma artesanal, por ende, los consumidores de estos productos valoran el arte que se esconde en cada prenda que adquiere un valor por este proceso. 
     p.mb-5(data-aos="fade-left") De otra parte, los tejidos utilizados en vestidos de noche, como terciopelo, raso y chiffon, son delicados y requieren mucha atención en su manipulación. El terciopelo se cose en la dirección del pelo y las costuras se hacen con puntadas pequeñas para que no se mueva al montarlo. Las ballenas también conocidas como varillas en los corsés, generalmente se unen a mano y como suelen cortarse en telas de cuerpos finos o intermedios que requieren guateado, donde se forran en 2 entretelas, ubicando la más gruesa para el lado del forro.
     
-    h4 Técnicas manuales e insumos artesanales
+    h3 Técnicas manuales e insumos artesanales
     
     p.mb-4(data-aos="fade-left") Cuando se habla de técnicas manuales utilizadas por modistas y sastres, se refiere a una cadena de pasos ejecutados con el cuidado en cada detalle de una forma artesanal, entre las cuales se encuentra la confección de corsé, varillas en guateado y forrado.
 
@@ -106,9 +106,9 @@
         .cajaverdec.p-4
           .row.justify-content-center.mb-4
             .col-lg-10.col-md-12.col-12
-              h4.mb-3 Confección de corsé 
+              h3.mb-3 Confección de corsé 
           
-          .row.justify-content-center.mb-5(data-aos="fade-right")
+          .row.justify-content-center.mb-4(data-aos="fade-right")
             .col-lg-5.col-md-12.col-12.mb-4
               .titulo-sexto.color-acento-contenido.mb-2
                 h5 Figura 11.
@@ -130,9 +130,9 @@
         
           .row.justify-content-center.mb-4(data-aos="fade-right")
             .col-lg-10.col-md-12.col-12
-              h4.mb-2 Varillas en guateado        
+              h3.mb-2 Varillas en guateado        
           
-          .row.justify-content-center.mb-5
+          .row.justify-content-center.mb-4
             .col-lg-5.col-md-12.col-12.mb-4
               .titulo-sexto.color-acento-contenido.mb-2
                 h5 Figura 13.
@@ -152,14 +152,12 @@
                   p.mb-5.px-2.py-2 
                     | Cerrar con punto atrás los extremos para asegurar la pieza.
 
-
-
                 
           .row.justify-content-center.mb-4(data-aos="fade-right")
             .col-lg-10.col-md-12.col-12
-              h4 Forrado
+              h3 Forrado
           
-          .row.justify-content-center.mb-4(data-aos="fade-right")
+          .row.justify-content-center.mb-2(data-aos="fade-right")
             .col-lg-10.col-md-12.col-12
               .cajarosaa.p-3.mb-4
                 .row.justify-content-center

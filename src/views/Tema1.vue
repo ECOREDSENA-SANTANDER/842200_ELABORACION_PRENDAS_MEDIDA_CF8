@@ -13,11 +13,11 @@
     
         .row.justify-content-center(data-aos="fade-left")
           .col-lg-12.col-md-10.col-10
-            img.img-a.img-t.mb-5(src='@/assets/curso/tema1/imgg1.png', alt='tema1')          
+            img.img-a.img-t.mb-4(src='@/assets/curso/tema1/imgg1.png', alt='tema1')          
         
-        p.mb-4 Una de las bases fundamentales de la modistería es la atención al cliente y recepción de la prenda, para lo cual se determina que haya un análisis ergonómico del cliente, la evolución del cuerpo humano, las causas de anomalías del cuerpo, además de la medición y señalizado de la prenda. A continuación, se relaciona esta información con mayor detalle.
+        p.mb-0 Una de las bases fundamentales de la modistería es la atención al cliente y recepción de la prenda, para lo cual se determina que haya un análisis ergonómico del cliente, la evolución del cuerpo humano, las causas de anomalías del cuerpo, además de la medición y señalizado de la prenda. A continuación, se relaciona esta información con mayor detalle.
     
-    
+        Separador   
         #t_1_1.titulo-segundo
           h2 1.1 Análisis ergonómico del cliente
 
@@ -55,6 +55,7 @@
     p.mb-4(data-aos="fade-left") El cuerpo humano sufre diferentes cambios a medida que va creciendo, pero también cuando va envejeciendo y aquí varios factores influyen como la edad, patologías, accidentes y alimentación; y para alcanzar la precisión de ajuste en una prenda de vestir es necesario conocer esas variaciones y anormalidades del cuerpo para poder aplicar las modificaciones.
     p.mb-4(data-aos="fade-left") Con respecto a la contextura se entiende esta como la configuración corporal de hombres y mujeres, y se divide en tres (3) tipos: 
     
+
     .row.justify-content-center.mb-4(data-aos="fade-down") 
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido.mh-375
@@ -128,7 +129,7 @@
         
     p.mb-4(data-aos="fade-left") Las principales causas de anomalías en el cuerpo se dividen en patológicas y funcionales, derivadas de hábitos posturales y malformaciones adquiridas. Con respecto al oficio de modista o sastre, saber detectarlas logra ampliar el entendimiento de los puntos en el patrón o prenda desarmada que deban ajustarse. La inclinación del cuerpo, por ejemplo, cambia la línea de manga y el calce del frente, además de la espalda de la prenda. Los hombros se ven afectados en cuanto a la caída y el pecho con alteraciones no solo afecta al frente, sino a toda la pieza en general. Este análisis aplica para cualquier línea ya sea femenina, masculina e infantil.
     
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-10.col-md-12.col-12
         .cajarosa.p-5
           .row.justify-content-center.align-items-center
@@ -143,7 +144,7 @@
                     span.text-black Descargar
                     i.fas.fa-file-download
 
-    
+    Separador
     #t_1_2.titulo-segundo
       h2 1.2 Medición y señalizado de la prenda
 

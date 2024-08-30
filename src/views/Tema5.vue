@@ -24,7 +24,7 @@
                     span.text-black Descargar
                     i.fas.fa-file-download
 
-    h4.mb-4(data-aos="fade-left") Inspección de producto terminado
+    h3.mb-4(data-aos="fade-left") Inspección de producto terminado
 
     p.mb-5(data-aos="fade-left") Conoce cómo se debe realizar la revisión de las prendas y que estas cumplan de acuerdo a los criterios, se necesitan revisar midiendo cada una de las partes, dado que todo patrón es simétrico dependiendo del diseño y estas deberán responder a su vez a las medidas del cliente.
     
