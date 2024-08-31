@@ -67,27 +67,31 @@
               .cajarosaa.p-4.mb-4
                 .row.justify-content-center
                   .col-lg-7.col-md-12.col-12
-                    .cajaroj.p-4.my-5.mb-4
+                    .cajaroj.p-5.my-5.mb-4
                       .row.justify-content-center
                         .col-lg-12.col-md-12.col-12
                           .cajablanca.p-4
-                            p.mb-2 Para subir una costura de pecho en curva se debe hacer un pliegue a través del frente del delantero entre el hombro y la sisa. Esos mismos centímetros se deben incluir en un corte horizontal por encima de la cintura al frente y al costadillo del delantero. Bajar la sisa en el costadillo en igual cantidad.
+                            p.mb-3.my-3 Para subir una costura de pecho en curva se debe hacer un pliegue a través del frente del delantero entre el hombro y la sisa. Esos mismos centímetros se deben incluir en un corte horizontal por encima de la cintura al frente y al costadillo del delantero. Bajar la sisa en el costadillo en igual cantidad.
                   .col-lg-5.col-md-12.col-12
-                    .titulo-sexto.color-acento-contenido.mb-2
-                      h5 Figura 9.
-                      | Subir costura
-                    img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/tema2/img05.png', alt='la figura presenta dos piezas de tela, donde se resaltan los lugares donde se deben realizar los ajustes') 
+                    .row.justify-content-center(data-aos="fade-right")
+                      .col-lg-12.col-md-12.col-12
+                        .titulo-sexto.color-acento-contenido.mb-2
+                          h5 Figura 9.
+                          | Subir costura
+                    .row.justify-content-center.mb-2(data-aos="fade-right")
+                      .col-lg-12.col-md-12.col-12
+                        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/tema2/img05.png', alt='la figura presenta dos piezas de tela, donde se resaltan los lugares donde se deben realizar los ajustes') 
 
           .row.justify-content-center.mb-0(data-aos="fade-right")
             .col-lg-10.col-md-12.col-12
               .cajarosaa.p-4.mb-4
                 .row.justify-content-center
                   .col-lg-7.col-md-12.col-12
-                    .cajaroj.p-4.my-5.mb-4
+                    .cajaroj.p-5.my-5.mb-4
                       .row.justify-content-center
                         .col-lg-12.col-md-12.col-12
                           .cajablanca.p-4
-                            p.mb-4.my-4 Para bajar una costura de pecho en una curva, se debe cortar a través del frente delantero a mitad de distancia entre el hombro y la sisa. Extender las piezas y hacer un pliegue por el frente y el costadillo cogiendo la misma cantidad.
+                            p.mb-5.my-2 Para bajar una costura de pecho en una curva, se debe cortar a través del frente delantero a mitad de distancia entre el hombro y la sisa. Extender las piezas y hacer un pliegue por el frente y el costadillo cogiendo la misma cantidad.
                   .col-lg-5.col-md-12.col-12.mb-0
                     .titulo-sexto.color-acento-contenido.mb-2
                       h5 Figura 10.
@@ -157,16 +161,16 @@
             .col-lg-10.col-md-12.col-12
               h3 Forrado
           
-          .row.justify-content-center.mb-2(data-aos="fade-right")
+          .row.justify-content-center.mb-4(data-aos="fade-right")
             .col-lg-10.col-md-12.col-12
-              .cajarosaa.p-3.mb-4
+              .cajarosaa.p-4.mb-2
                 .row.justify-content-center
                   .col-lg-7.col-md-12.col-12
-                    .cajaroj.p-4.my-5
+                    .cajaroj.p-5.my-5.mb-4
                       .row.justify-content-center
                         .col-lg-12.col-md-12.col-12
                           .cajablanca.p-4
-                            p.mb-4 Unir el forro con el cuerpo ya armado, ubicando derecho con derecho de la tela. Se debe coser en la parte superior por el revés de la pieza y los lados.
+                            p.mb-4.my-2 Unir el forro con el cuerpo ya armado, ubicando derecho con derecho de la tela. Se debe coser en la parte superior por el revés de la pieza y los lados.
                   .col-lg-5.col-md-12.col-12
                     .titulo-sexto.color-acento-contenido.mb-3
                       h5 Figura 15.
@@ -175,14 +179,14 @@
 
           .row.justify-content-center(data-aos="fade-right")
             .col-lg-10.col-md-12.col-12
-              .cajarosaa.p-3.mb-4
+              .cajarosaa.p-4.mb-4
                 .row.justify-content-center
                   .col-lg-7.col-md-12.col-12
-                    .cajaroj.p-4.my-5
+                    .cajaroj.p-5.my-5.mb-4
                       .row.justify-content-center
                         .col-lg-12.col-md-12.col-12
-                          .cajablanca.ulto.p-4
-                            p.mb-0 Coser con puntadas escapulario para el cerrado del forro en la parte de abajo.
+                          .cajablanca.ulto.p-3
+                            p.mb-0.my-0 Coser con puntadas escapulario para el cerrado del forro en la parte de abajo.
                   .col-lg-5.col-md-12.col-12
                     .titulo-sexto.color-acento-contenido.mb-3
                       h5 Figura 16.

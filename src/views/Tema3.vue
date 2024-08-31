@@ -91,13 +91,13 @@
     p.mb-4(data-aos="fade-left") Una vez se tienen desarmadas las piezas que sean necesarias para iniciar con el arreglo, estas se contemplarán como los patrones que son en realidad, por lo anterior, el siguiente apartado contendrá cómo hacer los arreglos respectivos para las modificaciones.
     
     .row.justify-content-center.mb-4(data-aos="fade-right")
-      .col-lg-8.col-md-9.col-9
+      .col-lg-8.col-md-12.col-12
         .cajon.color-primario.fondo-f.p-4   
           p.mb-0 Cuando se hace un arreglo de prenda y se tiene una buena comprensión de los patrones, desbaratar todo para los expertos no es necesario, esto se logra con la práctica.
 
-    p.mb-5(data-aos="fade-left") Para reparar un vestido, que queda amplio en la parte superior y muy justo en la parte inferior. La modista debe realizar los siguientes pasos: 
+    p.mb-4(data-aos="fade-left") Para reparar un vestido, que queda amplio en la parte superior y muy justo en la parte inferior. La modista debe realizar los siguientes pasos: 
     
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-2(data-aos="fade-right")
       .col-md-12.col-lg-10.col-12.mb-5
         .hr
         .row.justify-content-center.align-items-center.p-2(data-aos="fade-right")
@@ -155,7 +155,7 @@
 
     p.mb-5(data-aos="fade-left") Se debe tener en cuenta que la ampliación de esta parte puede resultar de lo que se liberó de medida en el superior, otra solución, si no se cuenta con la tela suficiente, es añadir a los costados rectificando la medida del contorno de cadera y la línea se trazará por fuera del patrón hasta que coincida con la medida. 
     
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
+    .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-10.col-md-12.col-12
         .fondo21.p-4.mb-2
           .row.justify-content-center.align-items-center
@@ -165,7 +165,7 @@
               h4.mb-1 Modificación de moldes - análisis sobre medidas
               p.mb-0 Conoce otras técnicas que pueden resultar útiles para la modificación de moldes y el análisis sobre medidas.
             .col-lg-2.col-md-12.col-12
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=2Aa8iCb_Zpo&t=1130s" target="_blank")
+              a.boton.color-acento-botones(href="https://youtu.be/jOk9VFQkDLk" target="_blank")
                 span Ir al sitio
                 i.fas.fa-video
 

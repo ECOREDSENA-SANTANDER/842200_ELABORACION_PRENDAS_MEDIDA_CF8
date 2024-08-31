@@ -58,7 +58,7 @@
     p.mb-4(data-aos="fade-left") Para muchos es sencillo expresar que es mejor la eliminación de productos, pero estos emiten gases y elementos que son perjudiciales para el planeta, pues debilitan la capa de ozono afectando el mundo entero, es por esto que se debe ser más consciente a la hora de seleccionar los productos y velar porque la composición y combinación sean las adecuadas. Las fibras, como bien se ha mencionado, pueden ser de origen natural o sintético (artificial), por lo que se encuentran un sinnúmero de resultados en cuanto a fibras textiles, como se indica en la siguiente tabla. 
     
 
-    .row.justify-content.mb-5(data-aos="fade-left") 
+    .row.justify-content.mb-4(data-aos="fade-left") 
       .col-lg-12.col-md-12.col-12
         .titulo-sexto.color-acento-contenido.mb-0
           h5 Tabla 1.
@@ -92,31 +92,50 @@
         h2.mb-0 Fibras manufacturadas
       table
         caption Nota. Tomada de García (2018)
-        tr.sin-fondo
-          th(rowspan=2 style="border-bottom:1px solid #E8E8E8") Artificiales o Regeneradas
-          td De celulosa           
-          td.derec Rayón viscosa, Rayón modal, Rayón cuproamonio        
+        tr
+          th.caja54(rowspan=2 style="border-bottom:1px solid #fff") Artificiales o Regeneradas
+          td.caja55 De celulosa           
+          td.caja55
+            .row.p-0 
+              .col-lg-2
+              .col-lg-10
+                p.mb-0.mx-4.put Rayón viscosa, Rayón modal, Rayón cuproamonio        
         tr(style="background-color:#F6F6F6;")          
           td De celulosa regenerada
-          td.derec Acetato de celulosa, triacetato de celulosa
-        
-        tr.sin-fondo
-          th(style="background-color:#F6F6F6;" rowspan=3) Artificiales o Regeneradas
-          td Monocomponentes           
-          td.derec Poliamida, Poliéster, Acrílicas,            
+          td
+            .row.p-0 
+              .col-lg-2
+              .col-lg-10
+                p.mb-0.mx-4.put Acetato de celulosa, triacetato de celulosa
+        tr
+          th(style="background-color: #F8F8F8;" rowspan=3) Sintéticas
+          td.caja55 Monocomponentes           
+          td.caja55
+            .row.p-0 
+              .col-lg-2
+              .col-lg-10
+                p.mb-0.mx-4.put Poliamida, Poliéster, Acrílicas,            
         tr(style="background-color:#F6F6F6;")     
           td Biocomponentes          
-          td.derec Modacrílicas, Olefinicas,           
-        tr.sin-fondo        
-          td Microfibras
-          td.derec.mx-5 Elastometicas, Aramídicas
+          td
+            .row.p-0 
+              .col-lg-2
+              .col-lg-10
+                p.mb-0.mx-4.put Modacrílicas, Olefinicas,           
+        tr        
+          td.caja55 Microfibras
+          td.caja55
+            .row.p-0 
+              .col-lg-2
+              .col-lg-10
+                p.mb-0.mx-4.put Elastometicas, Aramídicas
     
     
     p.mb-4(data-aos="fade-left") A continuación, se presenta un esquema que resume gran parte del proceso en cuanto a manejo de los residuos textiles y su transformación.
     
-    .row.justify-content-center.mb-5(data-aos="fade-right") 
+    .row.justify-content-center.mb-4(data-aos="fade-right") 
       .col-lg-8.col-md-9.col-12
-        .titulo-sexto.color-acento-contenido.mb-5
+        .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 24.
           | Manejo de residuos textiles
         img.mb-4.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/tema4/img07.svg', alt=' El diagrama ilustra el ciclo del reciclaje en la industria textil. En el medio una persona que reúsa las prendas, relacionándose con el punto de venta y la clasificación que hacen parte del ciclo, adicional a esto se presentan la preparación para el reciclaje, el reciclaje de bucle cerrado y la  industria textil. También se menciona el reciclaje de bucle abierto, que es el que termina en el aprovechamiento de las prendas recicladas en otra industrias.')
@@ -125,18 +144,18 @@
 
     p.mb-4(data-aos="fade-left") Lo anterior es cuando se logra la transformación de la prenda, cuando esto no sucede se pueden aplicar estrategias solo de reciclaje en las que la fibra no será transformada pero sí reutilizada.
     
-    .row.justify-content-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-6.col-md-9.col-12
-        .titulo-sexto.color-acento-contenido.mb-5
+        .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 25.
           | Proceso
         img.mb-4.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/tema4/img08.svg', alt=' En el diagrama se describe el proceso de reutilización de las prendas, el cual se inicia con la fracción textil, la recogida y la llevada a la planta de selección, a partir de este punto se bifurca en dos caminos en el caso de la fracción reutilizable se procede a la clasificación, higienización y acondicionamiento final y en el segundo caso de la fracción no reutilizable se clasifica, se recicla y se valoriza.')
         img.mb-4.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/tema4/img08.1.svg', alt='En el diagrama se describe el proceso de reutilización de las prendas, el cual se inicia con la fracción textil, la recogida y la llevada a la planta de selección, a partir de este punto se bifurca en dos caminos en el caso de la fracción reutilizable se procede a la clasificación, higienización y acondicionamiento final y en el segundo caso de la fracción no reutilizable se clasifica, se recicla y se valoriza.')
         figcaption Nota. Tomada de García (2018)
 
-    p.mb-5(data-aos="fade-left") Ahora bien, cuando se pretende transformar directamente la fibra, esta pasa también por un proceso de clasificación para establecer las que se consideran reutilizables y las que no, esto se consigue a través de pruebas químicas para detectar su base y, si pueden reutilizarse, se hace una reclasificación, seguida de un deshilachado/desfibrado, cortado, estirado y peinado hasta llegar nuevamente a la hilatura. Textiles bajo este esquema hay varios como los de la textilera Vitral que produce lino y algodón reciclado.
+    p.mb-4(data-aos="fade-left") Ahora bien, cuando se pretende transformar directamente la fibra, esta pasa también por un proceso de clasificación para establecer las que se consideran reutilizables y las que no, esto se consigue a través de pruebas químicas para detectar su base y, si pueden reutilizarse, se hace una reclasificación, seguida de un deshilachado/desfibrado, cortado, estirado y peinado hasta llegar nuevamente a la hilatura. Textiles bajo este esquema hay varios como los de la textilera Vitral que produce lino y algodón reciclado.
     
-    .row.justify-content-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.mb-0(data-aos="fade-right")
       .col-lg-8.col-md-8.col-12
         .titulo-sexto.color-acento-contenido.mb-5
           h5 Figura 26.

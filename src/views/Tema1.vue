@@ -23,7 +23,7 @@
 
     figure.mb-4(data-aos="fade-right")
       .video  
-        iframe(iframe width="1255" height="706" src="https://www.youtube.com/embed/-3iETPRjy5w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/_4VpDjFYDPw?si=Xfsd-YAMnILNeHLC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)    
       figcaption.mb-5 Video. Análisis ergonómico del cliente
   
     p.mb-4 El punto de partida para el análisis ergonómico, es la observación. En el momento de la toma de medidas lo primero por identificar es la silueta, luego la proporción así como la desproporción de las partes del cuerpo y, por último, la estatura que determina el tamaño de elementos como bolsillos, botones, cruces, etc., acordes con el tamaño de la figura humana. En concordancia con lo descrito, su aplicación ayudará a mejorar la imagen estética del cliente.
@@ -60,7 +60,7 @@
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido.mh-375
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
+            .tarjeta-slide__contenido.p-5.p-xl-5
               h3 Cuerpo normal:
               p Es la armonía estructural entre la estatura y los cánones de estructura según género y edad.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/1.svg')})`}")
@@ -68,22 +68,22 @@
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido.mh-375(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
+            .tarjeta-slide__contenido.p-5.p-xl-5
               h3 Cuerpo delgado:
               p Reducido desarrollo muscular. Generalmente, los omóplatos sobresalen en la superficie de la espalda. La espina dorsal es curvada y el esternón es hundido y la cintura delgada.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/2.svg')})`}")
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido.mh-375
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
+            .tarjeta-slide__contenido.p-5.p-xl-5
               h3 Cuerpo obeso:
               p Excesivo desarrollo del tejido adiposo produciendo un aumento de peso por encima de lo que corresponde de acuerdo con la edad, talla y sexo.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/3.svg')})`}")
   
 
-    .row.justify-content-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-6.col-md-12.col-12
-        .titulo-sexto.color-acento-contenido.mb-5
+        .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 2
           | Tipos de cuerpo
         img(data-aos="zoom-in")(src='@/assets/curso/tema1/immg.svg', alt='la figura presenta los tipos de cuerpo: cuerpo delgado, cuerpo grueso, cuerpo obeso.')  
@@ -91,7 +91,7 @@
 
     p.mb-5(data-aos="fade-left") Cuando se habla de porte, se refiere a la disposición física de una persona. Los siguientes son las clases de cuerpos: 
     
-    .row.justify-content-center.mb-4(data-aos="fade-right")
+    .row.justify-content-center.mb-0(data-aos="fade-right")
       .col-lg-12.col-md-12.col-12
         TabsA.color-acento-botones.mb-5
           .tarjeta.color-acento-conte--borde.p-4(titulo="Cuerpo de porte normal")
@@ -159,7 +159,7 @@
           .bloque-texto-g__texto.p-4
             p Cuando el cliente agenda la cita, y en el caso de las mujeres, se le sugiere ir con la ropa interior de uso más frecuente, para manejar con mejor aproximación las alturas de busto y contorno de pecho. Ya con el análisis antropométrico del cliente bien documentado, se analiza la prenda categorizando su tipología, tipo de tela y detalles en general para que, en el momento del diálogo, se puedan ofrecer recomendaciones que vayan acordes con la silueta del cliente. Antes de la medición de la prenda se debe tener claro el arreglo que se debe hacer, para lo cual se sugiere realizar el boceto plano de la prenda de su parte frontal, de costado y de atrás. 
 
-    p.mb-4(data-aos="fade-left") Los instrumentos que se deben tener a mano son: alfileres, hilo con hilo en contraste, tiza o lápiz para marcar, cinta métrica, desbaratador y libreta de apuntes.
+    p.mb-3(data-aos="fade-left") Los instrumentos que se deben tener a mano son: alfileres, hilo con hilo en contraste, tiza o lápiz para marcar, cinta métrica, desbaratador y libreta de apuntes.
     
     .row.justify-content-center.align-items-center.mb-3(data-aos="fade-left")
       .col-lg-5.col-md-12.col-12.mb-4
@@ -183,11 +183,11 @@
         img.img-a.img-t.mb-2(data-aos="zoom-in")(src='@/assets/curso/tema1/img08.png', alt='la fotografía presenta una chaqueta con marcas y sin terminar sobre un maniquí.')  
         figcaption Nota. Tomada de Istock (2021)
     
-    .row.justify-content-center.align-items-center.mb-3(data-aos="fade-left")
+    .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-5.col-md-12.col-12.mb-4
         .caja111.p-5.mb-0.my-2  
           p.mb-5.my-4 Por último, se debe ubicar la prenda en una superficie plana, suavizar con las reglas de patronaje y apoyarse con la cinta métrica para las distancias. Luego hay que analizar, según la necesidad de ajuste, el desarmado de la prenda y proceder a ejecutar los ajustes.
-      .col-lg-5.col-md-12.col-12.mb-4
+      .col-lg-5.col-md-12.col-12.mb-0
         .titulo-sexto.color-acento-contenido
           h5 Figura 5
           | Correccion de curvas

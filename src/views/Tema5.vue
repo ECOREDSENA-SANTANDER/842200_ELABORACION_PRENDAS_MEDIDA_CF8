@@ -32,7 +32,7 @@
       .col-lg-12.col-md-12.col-12
         figure
           .video.mb-1
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/I8adPpXG-n8?si=PcfyIgDKEMUpcbeq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/uP1zR8I56gU?si=1VzdrR31f2OAREeh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Video. Inspección producto terminado
   
   
