@@ -19,7 +19,7 @@
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/tema2/img01.svg', alt='tema2')          
 
 
-    p.mb-4(data-aos="fade-left") Cuando se está alargando o acortando lo más recomendable es aplicarlo en partes bajas de la pieza que no comprometan otras partes, consulte el siguiente material para conocer los pasos y las opciones para alargar y acortar.
+    p.mb-4(data-aos="fade-left") Cuando se está alargando o acortando lo más recomendable es aplicarlo en partes bajas de la pieza que no comprometan otras partes, tal como lo indica la línea en contraste de las imágenes. 
     
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-12.col-md-12.col-12
@@ -103,7 +103,7 @@
     
     h3 Técnicas manuales e insumos artesanales
     
-    p.mb-4(data-aos="fade-left") Cuando se habla de técnicas manuales utilizadas por modistas y sastres, se refiere a una cadena de pasos ejecutados con el cuidado en cada detalle de una forma artesanal, entre las cuales se encuentra la confección de corsé, varillas en guateado y forrado.
+    p.mb-4(data-aos="fade-left") Cuando se habla de técnicas manuales utilizadas por modistas y sastres, se refiere a una cadena de pasos ejecutados con el cuidado en cada detalle de una forma artesanal, entre las cuales se encuentra la confección de corsé, varillas en guateado y forrado. Consulte el siguiente recurso para conocer el proceso:
 
     .row.justify-content-center(data-aos="fade-right")
       .col-lg-12.col-md-12.col-12
