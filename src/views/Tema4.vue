@@ -27,7 +27,7 @@
       .col-lg-4.col-md-10.col-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 22.
-          | Supraciclaje
+          | Ejemplo de suprareciclaje
         img.mb-2(data-aos="zoom-in")(src='@/assets/curso/tema4/img02.png', alt='La imagen contiene fotografía de  un hombre y una mujer luciendo prendas que fueron objeto de supaciclaje') 
         figcaption Nota. Tomada de Sea (2021)
     
@@ -40,7 +40,7 @@
           h5 Figura 23.
           | Residuos textiles
         img.mb-2(data-aos="zoom-in")(src='@/assets/curso/tema4/img03.png', alt='La imagen contine fotografía de mucha cantidad de residuos textiles, debidamente almacenados') 
-        figcaption.mb-4 Nota. Tomada de Sea (2021)
+        figcaption.mb-4 Nota. Tomada de Zicla (2019)
       .col-lg-8.col-md-12.col-12
         .caja4.p-4
           p.mb-4.my-3 Para el correcto manejo de residuos se hace indispensable saber la composición de esos textiles, esto por los siguientes factores:
@@ -149,8 +149,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 25.
           | Proceso
-        img.mb-4.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/tema4/img08.svg', alt=' En el diagrama se describe el proceso de reutilización de las prendas, el cual se inicia con la fracción textil, la recogida y la llevada a la planta de selección, a partir de este punto se bifurca en dos caminos en el caso de la fracción reutilizable se procede a la clasificación, higienización y acondicionamiento final y en el segundo caso de la fracción no reutilizable se clasifica, se recicla y se valoriza.')
-        img.mb-4.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/tema4/img08.1.svg', alt='En el diagrama se describe el proceso de reutilización de las prendas, el cual se inicia con la fracción textil, la recogida y la llevada a la planta de selección, a partir de este punto se bifurca en dos caminos en el caso de la fracción reutilizable se procede a la clasificación, higienización y acondicionamiento final y en el segundo caso de la fracción no reutilizable se clasifica, se recicla y se valoriza.')
+        img.mb-4.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/tema4/i55.svg', alt=' En el diagrama se describe el proceso de reutilización de las prendas, el cual se inicia con la fracción textil, la recogida y la llevada a la planta de selección, a partir de este punto se bifurca en dos caminos en el caso de la fracción reutilizable se procede a la clasificación, higienización y acondicionamiento final y en el segundo caso de la fracción no reutilizable se clasifica, se recicla y se valoriza.')
+        img.mb-4.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/tema4/i555.svg', alt='En el diagrama se describe el proceso de reutilización de las prendas, el cual se inicia con la fracción textil, la recogida y la llevada a la planta de selección, a partir de este punto se bifurca en dos caminos en el caso de la fracción reutilizable se procede a la clasificación, higienización y acondicionamiento final y en el segundo caso de la fracción no reutilizable se clasifica, se recicla y se valoriza.')
         figcaption Nota. Tomada de García (2018)
 
     p.mb-4(data-aos="fade-left") Ahora bien, cuando se pretende transformar directamente la fibra, esta pasa también por un proceso de clasificación para establecer las que se consideran reutilizables y las que no, esto se consigue a través de pruebas químicas para detectar su base y, si pueden reutilizarse, se hace una reclasificación, seguida de un deshilachado/desfibrado, cortado, estirado y peinado hasta llegar nuevamente a la hilatura. Textiles bajo este esquema hay varios como los de la textilera Vitral que produce lino y algodón reciclado.

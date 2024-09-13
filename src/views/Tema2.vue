@@ -125,7 +125,7 @@
             .col-lg-5.col-md-12.col-12
               .titulo-sexto.color-acento-contenido.mb-2
                 h5 Figura 12.
-                | Planchado de costuras.
+                | Planchado de costuras
               .shadow
                 img(data-aos="zoom-in")(src='@/assets/curso/tema2/img08.png', alt=' la fotografía presenta la forma como se deben planchar las costuras sobre un cojin de sastre.')
                 .texto-imagenes.py-2.px-1

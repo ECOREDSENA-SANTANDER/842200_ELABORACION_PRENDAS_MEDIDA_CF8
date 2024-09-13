@@ -7,7 +7,7 @@
         span 3
       h1 Modificación y arreglos en las prendas de vestir
     
-    p.mb-4(data-aos="fade-left") En la confección de prendas de vestir suelen repetirse varios de los procesos cuya finalidad es buscar que la prenda quede acorde con los criterios técnicos que permitan su uso y comodidad por parte del cliente o consumidor. Es por ello que en este proceso, independientemente de si ya se tiene el producto terminado, aparecerán factores en los que las prendas ya no puedan ser usadas por el consumidor, entre estos factores pueden estar el aumento o disminución de peso, transformar una prenda de formal a casual, reutilizar prendas cuyo objetivo es que el ciclo de vida del producto pueda extenderse, entre otros. Por lo anterior, cuando se habla de modificación de prenda, esta debe entenderse que fue realizada a partir de patrones y que siendo un molde puede llegar a transformarse y darle el uso esperado. En este apartado se iniciará desde el descosido y la transformación de moldes entendiéndose estos como las partes de una prenda.
+    p.mb-4(data-aos="fade-left") En la confección de prendas de vestir suelen repetirse varios de los procesos cuya finalidad es buscar que la prenda quede acorde con los criterios técnicos que permitan su uso y comodidad por parte del cliente o consumidor. Es por ello que, en este proceso, independientemente de si ya se tiene el producto terminado, aparecerán factores en los que las prendas ya no puedan ser usadas por el consumidor, entre estos factores pueden estar el aumento o disminución de peso, transformar una prenda de formal a casual, reutilizar prendas cuyo objetivo es que el ciclo de vida del producto pueda extenderse, entre otros. Por lo anterior, cuando se habla de modificación de prenda, esta debe entenderse que fue realizada a partir de patrones y que siendo un molde puede llegar a transformarse y darle el uso esperado. En este apartado se iniciará desde el descosido y la transformación de moldes entendiéndose estos como las partes de una prenda.
     p.mb-4(data-aos="fade-left") Así, existen varias técnicas de descosido o desmontado. Para iniciar el arreglo de una prenda se hace necesario evaluar cómo fue confeccionada, para ello es indispensable analizar la técnica que fue empleada, si está forrada, sí solo está a máquina plana o combinada con plana y fileteadora, adicionalmente se pueden llegar a encontrar prendas con puntadas como collarín, etc. 
     p.mb-4(data-aos="fade-left") A continuación, se ilustran algunas herramientas utilizadas para la modificación de prendas de vestir: 
     
@@ -64,11 +64,12 @@
 
     p.mb-4(data-aos="fade-left") Ahora bien, la mayoría de prendas vienen también fileteadas, por lo que descoser este tipo de prendas requiere de mayor paciencia, pues por lo general son tres hilos que están presentes en el tejido de esta puntada, para ello es recomendable lo siguiente:
     
-    .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
-      h5 Figura 18.
-      | Descosido prendas fileteadas
+
     .row.justify-content-center.mb-4
       .col-lg-8.col-md-12.col-12
+        .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
+          h5 Figura 18.
+          | Descosido prendas fileteadas
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-6.col-md-6.col-12
             .num1.img-a.img-t
@@ -87,7 +88,7 @@
             .num4.img-a.img-t
             h4.text-center Tirar la hebra
             img(data-aos="zoom-in")(src='@/assets/curso/tema3/ima4.svg', alt='La figura presenta el paso a paso para descoser una prenda fileteada.')  
-    
+        figcaption Nota. Tomada de Naii (2015)
     p.mb-4(data-aos="fade-left") Una vez se tienen desarmadas las piezas que sean necesarias para iniciar con el arreglo, estas se contemplarán como los patrones que son en realidad, por lo anterior, el siguiente apartado contendrá cómo hacer los arreglos respectivos para las modificaciones.
     
     .row.justify-content-center.mb-4(data-aos="fade-right")

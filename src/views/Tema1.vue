@@ -26,7 +26,7 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/_4VpDjFYDPw?si=Xfsd-YAMnILNeHLC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)    
       figcaption.mb-5 Video. Análisis ergonómico del cliente
   
-    p.mb-4 El punto de partida para el análisis ergonómico, es la observación. En el momento de la toma de medidas lo primero por identificar es la silueta, luego la proporción así como la desproporción de las partes del cuerpo y, por último, la estatura que determina el tamaño de elementos como bolsillos, botones, cruces, etc., acordes con el tamaño de la figura humana. En concordancia con lo descrito, su aplicación ayudará a mejorar la imagen estética del cliente.
+    p.mb-4 El punto de partida para el análisis ergonómico, es la observación. En el momento de la toma de medidas lo primero por identificar es la silueta, luego la proporción, así como la desproporción de las partes del cuerpo y, por último, la estatura que determina el tamaño de elementos como bolsillos, botones, cruces, etc., acordes con el tamaño de la figura humana. En concordancia con lo descrito, su aplicación ayudará a mejorar la imagen estética del cliente.
 
     .row.justify-content-center.mb-4(data-aos="fade-left") 
       .col-lg-10.col-md-12.col-12
@@ -43,7 +43,7 @@
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-6.col-md-12.col-12
         .titulo-sexto.color-acento-contenido.mb-5
-          h5 Figura 1
+          h5 Figura 1.
           | Tipos de raza
         img.mb-3(data-aos="zoom-in")(src='@/assets/curso/tema1/img02.svg', alt='Texto alternativo figura 1: la imagen presenta tres imágenes de mujeres de diferentes razas y describe estaturas de la siguiente manera: Raza blanca: estatura 1.80m, raza americana: estatura 1.70m, raza asiática: estatura 1.60m.') 
         figcaption Nota. Tomada de Plásticamente bilingüe (2021)        
@@ -56,7 +56,7 @@
     p.mb-4(data-aos="fade-left") Con respecto a la contextura se entiende esta como la configuración corporal de hombres y mujeres, y se divide en tres (3) tipos: 
     
 
-    .row.justify-content-center.mb-4(data-aos="fade-down") 
+    .row.justify-content-center.mb-5(data-aos="fade-down") 
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido.mh-375
           .tarjeta-slide__contenedor
@@ -84,7 +84,7 @@
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-6.col-md-12.col-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 2
+          h5 Figura 2.
           | Tipos de cuerpo
         img(data-aos="zoom-in")(src='@/assets/curso/tema1/immg.svg', alt='la figura presenta los tipos de cuerpo: cuerpo delgado, cuerpo grueso, cuerpo obeso.')  
         figcaption Nota. Tomada de 123rf (2021) 
@@ -167,7 +167,7 @@
           p.mb-4.my-1 Durante el procedimiento se debe ir ajustando con alfileres o hilvanando la prenda de ser necesario, luego marcar las líneas de lo que se quiere hacer y dibujando sobre la prenda puesta, ya en el boceto dibujado ir anotando las distancias y medidas para realizar aumentos o acortar largos. Después se procede a quitar la pieza dejando los alfileres puestos. 
       .col-lg-5.col-md-12.col-12.mb-4
         .titulo-sexto.color-acento-contenido
-          h5 Figura 3
+          h5 Figura 3.
           | Medición
         img.img-a.img-t.mb-2(data-aos="zoom-in")(src='@/assets/curso/tema1/img07.png', alt='la fotografía presenta los hombros de una persona midiéndose una chaqueta a medio hacer, con alfileres y unas manos con un metro y realizando marcas con una tiza.  ')  
         figcaption Nota. Tomada 1.000 cursos gratis (2019)
@@ -178,7 +178,7 @@
           p.mb-5.my-4 Si se tiene un maniquí de costura, se debe colocar la prenda allí para definir mejor las líneas dibujadas, pues sobre la persona es más complejo este proceso. Este paso se puede ejecutar con la prenda completa o con el desmontaje de piezas ya realizadas.
       .col-lg-5.col-md-12.col-12.mb-4.my-0
         .titulo-sexto.color-acento-contenido
-          h5 Figura 4
+          h5 Figura 4.
           | Maniquí de costura 
         img.img-a.img-t.mb-2(data-aos="zoom-in")(src='@/assets/curso/tema1/img08.png', alt='la fotografía presenta una chaqueta con marcas y sin terminar sobre un maniquí.')  
         figcaption Nota. Tomada de Istock (2021)
@@ -189,8 +189,8 @@
           p.mb-5.my-4 Por último, se debe ubicar la prenda en una superficie plana, suavizar con las reglas de patronaje y apoyarse con la cinta métrica para las distancias. Luego hay que analizar, según la necesidad de ajuste, el desarmado de la prenda y proceder a ejecutar los ajustes.
       .col-lg-5.col-md-12.col-12.mb-0
         .titulo-sexto.color-acento-contenido
-          h5 Figura 5
-          | Correccion de curvas
+          h5 Figura 5.
+          | Corrección de curvas
         img.img-a.img-t.mb-2(data-aos="zoom-in")(src='@/assets/curso/tema1/img09.png', alt='la fotografía presenta unas manos tomando medidas en una prenda sobre una superficie plana.')  
         figcaption Nota. Tomada de Istock (2021)
 

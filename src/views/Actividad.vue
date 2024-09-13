@@ -10,7 +10,7 @@
             img(src="@/assets/template/Arrastrar_Soltar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Apropiación de conceptos 
+          h2 Modificación de prendas
         p.mb-4 Con esta actividad, los aprendices podrán darse cuenta de su conocimiento en cuanto a los conceptos trabajados en este componente.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
