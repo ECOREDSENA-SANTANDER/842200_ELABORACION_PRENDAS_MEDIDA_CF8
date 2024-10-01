@@ -14,12 +14,12 @@
         .cajaverdec.p-4
           .row.justify-content-center
             .col-lg-8.col-md-12.col-12
-              p.my-5 Para alargar o ampliar una prenda se pueden reducir costuras, soltar ruedos y pinzas o añadir piezas textiles en boleros o en cortes; para reducir o acortar es más fácil ya que se tiene tela de sobra.
+              p.my-5 Para alargar o ampliar una prenda se pueden reducir costuras, soltar ruedos y pinzas o añadir piezas textiles en boleros o en cortes; para reducir o acortar es más fácil, ya que se tiene tela de sobra.
             .col-lg-4.col-md-10.col-10
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/tema2/img01.svg', alt='tema2')          
 
 
-    p.mb-4(data-aos="fade-left") Cuando se está alargando o acortando lo más recomendable es aplicarlo en partes bajas de la pieza que no comprometan otras partes, tal como lo indica la línea en contraste de las imágenes. 
+    p.mb-4(data-aos="fade-left") Cuando se está alargando o acortando, lo más recomendable es aplicarlo en partes bajas de la pieza que no comprometan otras partes, tal como lo indica la línea en contraste de las imágenes. 
     
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-12.col-md-12.col-12
@@ -39,7 +39,7 @@
                 h5 Figura 7.
                 | Aumento (opción 2)
               .shadow
-                img(data-aos="zoom-in")(src='@/assets/curso/tema2/img03.png', alt=' Fotografía de unas manos ubicando las piezas separadas sobre el panel con el aumento')
+                img(data-aos="zoom-in")(src='@/assets/curso/tema2/img03.png', alt='Fotografía de unas manos ubicando las piezas separadas sobre el panel con el aumento')
                 .texto-imagenes.py-2.px-1
                   p.mb-0.px-2.py-2 
                     | Si la opción 1 no funcionó, se debe realizar un corte horizontal y añadir tela. Recuerde incluir los centímetros para el margen de costura.
@@ -55,8 +55,8 @@
                   h5 Figura 8.
                   | Acortar
                 .shadow
-                  img.mb-4(data-aos="zoom-in")(src='@/assets/curso/tema2/img04.png', alt='Texto alternativo: Se presentan tres fotografías de unas manos realizando trazos sobre piezas para realizar reducciones.')
-                p.mb-4 Si es el largo de la pieza se reduce en los ruedos, pero si es en zonas como pecho y espalda, por ejemplo, se puede hacer un corte horizontal o un pliegue.
+                  img.mb-4(data-aos="zoom-in")(src='@/assets/curso/tema2/img04.png', alt='Se presentan tres fotografías de unas manos realizando trazos sobre piezas para realizar reducciones.')
+                p.mb-4 Si es el largo de la pieza, se reduce en los ruedos, pero si es en zonas como pecho y espalda, por ejemplo, se puede hacer un corte horizontal o un pliegue.
                 
           .row.justify-content-center.mb-4
             .col-lg-10.col-md-12.col-12
@@ -80,7 +80,7 @@
                           | Subir costura
                     .row.justify-content-center.mb-2(data-aos="fade-right")
                       .col-lg-12.col-md-12.col-12
-                        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/tema2/img05.png', alt='la figura presenta dos piezas de tela, donde se resaltan los lugares donde se deben realizar los ajustes') 
+                        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/tema2/img05.png', alt='La figura presenta dos piezas de tela, donde se resaltan los lugares donde se deben realizar los ajustes') 
 
           .row.justify-content-center.mb-0(data-aos="fade-right")
             .col-lg-10.col-md-12.col-12
@@ -96,10 +96,10 @@
                     .titulo-sexto.color-acento-contenido.mb-2
                       h5 Figura 10.
                       | Bajar costura
-                    img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/tema2/img06.png', alt='la figura presenta dos piezas de tela, donde se resaltan los espacios para realizar las modificaciones')
+                    img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/tema2/img06.png', alt='La figura presenta dos piezas de tela, donde se resaltan los espacios para realizar las modificaciones')
 
     p.mb-4(data-aos="fade-left") En las técnicas y procesos para los arreglos de prendas, también existen aquellos que se enfocan en los insumos artesanales. Cuando se habla de técnicas manuales utilizadas por modistas y sastres, se refiere a una cadena de pasos ejecutados con el cuidado en cada detalle y de forma artesanal, por ende, los consumidores de estos productos valoran el arte que se esconde en cada prenda que adquiere un valor por este proceso. 
-    p.mb-5(data-aos="fade-left") De otra parte, los tejidos utilizados en vestidos de noche, como terciopelo, raso y chiffon, son delicados y requieren mucha atención en su manipulación. El terciopelo se cose en la dirección del pelo y las costuras se hacen con puntadas pequeñas para que no se mueva al montarlo. Las ballenas también conocidas como varillas en los corsés, generalmente se unen a mano y como suelen cortarse en telas de cuerpos finos o intermedios que requieren guateado, donde se forran en 2 entretelas, ubicando la más gruesa para el lado del forro.
+    p.mb-5(data-aos="fade-left") De otra parte, los tejidos utilizados en vestidos de noche, como terciopelo, raso y chiffon, son delicados y requieren mucha atención en su manipulación. El terciopelo se cose en la dirección del pelo y las costuras se hacen con puntadas pequeñas para que no se mueva al montarlo. Las ballenas, también conocidas como varillas en los corsés, generalmente se unen a mano y como suelen cortarse en telas de cuerpos finos o intermedios que requieren guateado, donde se forran en 2 entretelas, ubicando la más gruesa para el lado del forro.
     
     h3 Técnicas manuales e insumos artesanales
     
@@ -118,7 +118,7 @@
                 h5 Figura 11.
                 | Confección de corsé
               .shadow
-                img(data-aos="zoom-in")(src='@/assets/curso/tema2/img07.png', alt='la fotografía presenta unas manos realizando unas costuras en un corsé')
+                img(data-aos="zoom-in")(src='@/assets/curso/tema2/img07.png', alt='La fotografía presenta unas manos realizando unas costuras en un corsé')
                 .texto-imagenes.py-2.px-1
                   p.mb-4.px-2.py-2
                     | Unir las piezas del cuerpo.
@@ -127,7 +127,7 @@
                 h5 Figura 12.
                 | Planchado de costuras
               .shadow
-                img(data-aos="zoom-in")(src='@/assets/curso/tema2/img08.png', alt=' la fotografía presenta la forma como se deben planchar las costuras sobre un cojin de sastre.')
+                img(data-aos="zoom-in")(src='@/assets/curso/tema2/img08.png', alt='La fotografía presenta la forma como se deben planchar las costuras sobre un cojin de sastre.')
                 .texto-imagenes.py-2.px-1
                   p.mb-0.px-2.py-2 
                     | Con el cojín de sastre planchar las costuras abiertas, luego dar cortes en las costuras para que queden planas.
@@ -151,7 +151,7 @@
                 h5 Figura 14.
                 | Costura de varillas en guateado
               .shadow
-                img(data-aos="zoom-in")(src='@/assets/curso/tema2/img10.png', alt='la fotografía presenta unas manos realizando un cierre con costura a un guateado con varilla')
+                img(data-aos="zoom-in")(src='@/assets/curso/tema2/img10.png', alt='La fotografía presenta unas manos realizando un cierre con costura a un guateado con varilla')
                 .texto-imagenes.py-2.px-1
                   p.mb-5.px-2.py-2 
                     | Cerrar con punto atrás los extremos para asegurar la pieza.
@@ -175,7 +175,7 @@
                     .titulo-sexto.color-acento-contenido.mb-3
                       h5 Figura 15.
                       | Forrado
-                    img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/tema2/img11.png', alt='la fotografía presenta unas manos realizando el proceso en una maquina de coser') 
+                    img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/tema2/img11.png', alt='La fotografía presenta unas manos realizando el proceso en una máquina de coser') 
 
           .row.justify-content-center(data-aos="fade-right")
             .col-lg-10.col-md-12.col-12
@@ -191,7 +191,7 @@
                     .titulo-sexto.color-acento-contenido.mb-3
                       h5 Figura 16.
                       | Costura de forro
-                    img.img-a.img-timg(data-aos="zoom-in")(src='@/assets/curso/tema2/img12.png', alt='la fotografía presenta el proceso de unión mediante costura del corsé con el guateado.')
+                    img.img-a.img-timg(data-aos="zoom-in")(src='@/assets/curso/tema2/img12.png', alt='La fotografía presenta el proceso de unión mediante costura del corsé con el guateado.')
 
 
 </template>

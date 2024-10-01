@@ -192,14 +192,10 @@ export default {
   ],
   referencias: [
     {
-      referencia: '1.000 cursos gratis (2019). Costura y sastrería.',
+      referencia:
+        '1.000 cursos gratis (2019). Curso de costura y sastrería profesional.',
       link:
         'https://1000cursosgratis.com/curso-profesional-de-costura-y-sastreria/',
-    },
-    {
-      referencia: '123rf (2021). Imagen.',
-      link:
-        'https://es.123rf.com/photo_89500746_agujas-y-alfileres-sobre-fondo-blanco-dibujo-colorido-ilustraci%C3%B3n-de-accesorios-para-artesan%C3%ADas-vector.html',
     },
     {
       referencia: '123rf. (2021). Imagen.',
@@ -209,7 +205,7 @@ export default {
     {
       referencia:
         'De Duarte, N. (1983). Conocimientos básicos de corte. Unidad instruccional No. 3 [Ebook]. Servicio Nacional de Aprendizaje SENA.',
-      link: 'https://hdl.handle.net/11404/1432.',
+      link: 'https://repositorio.sena.edu.co/handle/11404/1432?locale=en',
     },
     {
       referencia:
@@ -218,7 +214,8 @@ export default {
         'https://repository.udistrital.edu.co/bitstream/handle/11349/13550/Garc%EDaAcostaM%F3nicaViviana2018.pdf;jsessionid=B3275F3F4782A5F7AF1F12BF67314DD5?sequence=1',
     },
     {
-      referencia: 'Herramientas. (2021). Herramientas para taller de costura.',
+      referencia:
+        'Herramientas. (2021). Las 17 Herramientas Que Necesitas Para Abrir Un Taller De Costura.',
       link: 'https://herramientas.tv/herramientas-para-taller-de-costura/',
     },
     {
@@ -240,26 +237,28 @@ export default {
       link: 'https://www.luisaspagnoli.it/it_it/',
     },
     {
-      referencia: 'Naii. (2015). 3 maneras de descoser.',
+      referencia: 'Naii. (2015). 3 maneras de descoser la costura overlock.',
       link:
         'https://www.naiicostura.com/3-maneras-de-descoser-costura-overlock/',
     },
     {
       referencia:
-        'Plásticamente bilingüe. (2021). El cuerpo humano: mi versión.',
+        'Plásticamente bilingüe. (2021). EL CUERPO HUMANO: MI VERSIÓN DE KEITH HARING.',
       link:
         'https://plasticamentebilingue.blogspot.com/2020/05/el-cuerpo-humano-mi-version-de-keith.html',
     },
     {
-      referencia: 'Sea. (2021). Upcycling.',
+      referencia: 'Sea. (2021). <em>Upcycling.</em>',
       link: 'http://sea.com.uy/upcycling-una-alternativa-de-reciclaje-textil/',
     },
     {
-      referencia: 'Skarlet Costura. (2021). Cómo descoser.',
+      referencia:
+        'Skarlet Costura. (2021). Técnicas de costura: Cómo descoser.',
       link: 'https://skarlett.es/como-descoser/',
     },
     {
-      referencia: 'Vestuario. (s.f.). Tiza de sastre herramienta de costura.',
+      referencia:
+        'Vestuario. (s.f.). Tiza de sastre. Para qué sirve? Como funciona?',
       link:
         'http://www.vestuariocr.com/costura-general/tecnicas-de-costura/181-tiza-de-sastre-herramientas-de-costura-para-que-sirve-como-funciona-aprende-a-coser.html',
     },
@@ -274,12 +273,12 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable de Línea de Producción',
+          cargo: 'Responsable de línea de producción',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -289,13 +288,15 @@ export default {
       autores: [
         {
           nombre: 'Ledy Johana Velásquez Hernández',
-          cargo: 'Experto Temático',
-          centro: 'Regional Antioquia - Diseño, confección y moda',
+          cargo: 'Experto temático',
+          centro:
+            'Regional Antioquia - Centro de formacion en diseño, confección y moda',
         },
         {
           nombre: 'Paola Angélica Castro Salazar',
           cargo: 'Experto temático',
-          centro: 'Regional Antioquia - Diseño, confección y moda',
+          centro:
+            'Regional Antioquia - Centro de formacion en diseño, confección y moda',
         },
         {
           nombre: 'Paula Andrea Taborda Ortiz',
@@ -306,22 +307,22 @@ export default {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Asesor pedagógico',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Regional Santander - Centro industrial del diseño y la manufactura',
         },
         {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Revisora metodológica y pedagógica',
-          centro: 'Centro de Diseño y Metrología',
+          centro: 'Centro de diseño y metrología',
         },
         {
           nombre: 'José Gabriel Ortiz Abella',
           cargo: 'Corrector de estilo',
           centro:
-            'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
+            'Regional Distrito Capital - Centro para la industria de la comunicación gráfica',
         },
         {
           nombre: 'Carolina Jiménez Suescún',
-          cargo: 'Evaluadora Instruccional',
+          cargo: 'Evaluadora instruccional',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -331,22 +332,17 @@ export default {
       autores: [
         {
           nombre: 'Julian Fernando Vanegas Vega',
-          cargo: 'Diseñador de Contenidos Digitales',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Pedro Alonso Bolivar González',
-          cargo: 'Desarrollador <em>Fullstack</em>',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Maria Alejandra Vera Briceño',
-          cargo: 'Animadora y Productora Multimedia',
-          centro: 'Regional Santander - Centro Agroturístico',
-        },
-        {
-          nombre: 'Pedro Alonso Bolivar González',
-          cargo: 'Actividad Didáctica',
+          cargo: 'Animadora y productora multimedia',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -356,12 +352,12 @@ export default {
       autores: [
         {
           nombre: 'Laura Paola Gelvez Manosalva',
-          cargo: 'Validadora de Recursos Educativos Digitales',
+          cargo: 'Validadora de recursos educativos digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Erika Fernanda Mejía Pinzón',
-          cargo: 'Validadora para Contenidos Inclusivos y Accesibles',
+          cargo: 'Validadora para contenidos inclusivos y accesibles',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],

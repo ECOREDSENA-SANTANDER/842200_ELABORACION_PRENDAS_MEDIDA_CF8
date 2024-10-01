@@ -27,8 +27,8 @@
       .col-lg-4.col-md-10.col-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 22.
-          | Ejemplo de suprareciclaje
-        img.mb-2(data-aos="zoom-in")(src='@/assets/curso/tema4/img02.png', alt='La imagen contiene fotografía de  un hombre y una mujer luciendo prendas que fueron objeto de supaciclaje') 
+          | Ejemplo de supraciclaje
+        img.mb-2(data-aos="zoom-in")(src='@/assets/curso/tema4/img02.png', alt='La imagen contiene fotografía de un hombre y una mujer luciendo prendas que fueron objeto de supraciclaje') 
         figcaption Nota. Tomada de Sea (2021)
     
     p.mb-4(data-aos="fade-left") El supraciclaje lleva a resignificar los residuos textiles y esto sucede cuando se trabaja directamente obteniendo prendas o elementos que han dejado de usarse, por lo que es importante comprender que estos textiles que conforman dichos productos parten de fibras que han pasado por procesos hasta convertirse en hilo y, posteriormente, en tela. 
@@ -128,7 +128,7 @@
             .row.p-0 
               .col-lg-2
               .col-lg-10
-                p.mb-0.mx-4.put Elastometicas, Aramídicas
+                p.mb-0.mx-4.put Elastoméricas, Aramídicas
     
     
     p.mb-4(data-aos="fade-left") A continuación, se presenta un esquema que resume gran parte del proceso en cuanto a manejo de los residuos textiles y su transformación.
@@ -138,8 +138,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 24.
           | Manejo de residuos textiles
-        img.mb-4.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/tema4/img07.svg', alt=' El diagrama ilustra el ciclo del reciclaje en la industria textil. En el medio una persona que reúsa las prendas, relacionándose con el punto de venta y la clasificación que hacen parte del ciclo, adicional a esto se presentan la preparación para el reciclaje, el reciclaje de bucle cerrado y la  industria textil. También se menciona el reciclaje de bucle abierto, que es el que termina en el aprovechamiento de las prendas recicladas en otra industrias.')
-        img.mb-4.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/tema4/img07.1.svg', alt=' El diagrama ilustra el ciclo del reciclaje en la industria textil. En el medio una persona que reúsa las prendas, relacionándose con el punto de venta y la clasificación que hacen parte del ciclo, adicional a esto se presentan la preparación para el reciclaje, el reciclaje de bucle cerrado y la  industria textil. También se menciona el reciclaje de bucle abierto, que es el que termina en el aprovechamiento de las prendas recicladas en otra industrias.')
+        img.mb-4.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/tema4/img07.svg', alt='El diagrama ilustra el ciclo del reciclaje en la industria textil. En el medio una persona que reúsa las prendas, relacionándose con el punto de venta y la clasificación que hacen parte del ciclo, adicional a esto se presentan la preparación para el reciclaje, el reciclaje de bucle cerrado y la industria textil. También se menciona el reciclaje de bucle abierto, que es el que termina en el aprovechamiento de las prendas recicladas en otras industrias.')
+        img.mb-4.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/tema4/img07.1.svg', alt='El diagrama ilustra el ciclo del reciclaje en la industria textil. En el medio una persona que reúsa las prendas, relacionándose con el punto de venta y la clasificación que hacen parte del ciclo, adicional a esto se presentan la preparación para el reciclaje, el reciclaje de bucle cerrado y la industria textil. También se menciona el reciclaje de bucle abierto, que es el que termina en el aprovechamiento de las prendas recicladas en otras industrias.')
         figcaption Nota. Tomada de García (2018)
 
     p.mb-4(data-aos="fade-left") Lo anterior es cuando se logra la transformación de la prenda, cuando esto no sucede se pueden aplicar estrategias solo de reciclaje en las que la fibra no será transformada pero sí reutilizada.
@@ -149,7 +149,7 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 25.
           | Proceso
-        img.mb-4.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/tema4/i55.svg', alt=' En el diagrama se describe el proceso de reutilización de las prendas, el cual se inicia con la fracción textil, la recogida y la llevada a la planta de selección, a partir de este punto se bifurca en dos caminos en el caso de la fracción reutilizable se procede a la clasificación, higienización y acondicionamiento final y en el segundo caso de la fracción no reutilizable se clasifica, se recicla y se valoriza.')
+        img.mb-4.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/tema4/i55.svg', alt='En el diagrama se describe el proceso de reutilización de las prendas, el cual se inicia con la fracción textil, la recogida y la llevada a la planta de selección, a partir de este punto se bifurca en dos caminos en el caso de la fracción reutilizable se procede a la clasificación, higienización y acondicionamiento final y en el segundo caso de la fracción no reutilizable se clasifica, se recicla y se valoriza.')
         img.mb-4.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/tema4/i555.svg', alt='En el diagrama se describe el proceso de reutilización de las prendas, el cual se inicia con la fracción textil, la recogida y la llevada a la planta de selección, a partir de este punto se bifurca en dos caminos en el caso de la fracción reutilizable se procede a la clasificación, higienización y acondicionamiento final y en el segundo caso de la fracción no reutilizable se clasifica, se recicla y se valoriza.')
         figcaption Nota. Tomada de García (2018)
 
@@ -160,8 +160,8 @@
         .titulo-sexto.color-acento-contenido.mb-5
           h5 Figura 26.
           | Hilatura
-        img.mb-4.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/tema4/img09.svg', alt='La figura contiene un esquema en el que se explica de manera detallada la manera de hacer la hilatura que consiste en  el proceso químico para detectar su base y si  se pueden reutilizar  primero se hace una reclasificación, seguida de un deshilachado/desfibrado, cortado, estirado y peinado hasta llegar nuevamente a la hilatura. ')
-        img.mb-4.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/tema4/img09.1.svg', alt='La figura contiene un esquema en el que se explica de manera detallada la manera de hacer la hilatura que consiste en  el proceso químico para detectar su base y si  se pueden reutilizar  primero se hace una reclasificación, seguida de un deshilachado/desfibrado, cortado, estirado y peinado hasta llegar nuevamente a la hilatura. ')
+        img.mb-4.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/tema4/img09.svg', alt='La figura contiene un esquema en el que se explica de manera detallada la manera de hacer la hilatura que consiste en el proceso químico para detectar su base y si se pueden reutilizar primero se hace una reclasificación, seguida de un deshilachado/desfibrado, cortado, estirado y peinado hasta llegar nuevamente a la hilatura.')
+        img.mb-4.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/tema4/img09.1.svg', alt='La figura contiene un esquema en el que se explica de manera detallada la manera de hacer la hilatura que consiste en el proceso químico para detectar su base y si se pueden reutilizar primero se hace una reclasificación, seguida de un deshilachado/desfibrado, cortado, estirado y peinado hasta llegar nuevamente a la hilatura.')
         figcaption Nota. Tomada de García (2018)
 
 

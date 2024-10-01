@@ -26,7 +26,7 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/_4VpDjFYDPw?si=Xfsd-YAMnILNeHLC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)    
       figcaption.mb-5 Video. Análisis ergonómico del cliente
   
-    p.mb-4 El punto de partida para el análisis ergonómico, es la observación. En el momento de la toma de medidas lo primero por identificar es la silueta, luego la proporción, así como la desproporción de las partes del cuerpo y, por último, la estatura que determina el tamaño de elementos como bolsillos, botones, cruces, etc., acordes con el tamaño de la figura humana. En concordancia con lo descrito, su aplicación ayudará a mejorar la imagen estética del cliente.
+    p.mb-4 El punto de partida para el análisis ergonómico, es la observación. En el momento de la toma de medidas lo primero por identificar es la silueta, luego la proporción así como la desproporción de las partes del cuerpo y, por último, la estatura que determina el tamaño de elementos como bolsillos, botones, cruces, etc., acordes con el tamaño de la figura humana. En concordancia con lo descrito, su aplicación ayudará a mejorar la imagen estética del cliente.
 
     .row.justify-content-center.mb-4(data-aos="fade-left") 
       .col-lg-10.col-md-12.col-12
@@ -38,14 +38,14 @@
               img.img-a.img-t(src='@/assets/curso/tema1/img01.svg', alt='tema1')          
 
     p.mb-4(data-aos="fade-left") Siguiendo con este orden de ideas, se puede analizar cómo varía la postura del cuerpo humano con el paso de los años, una persona anciana adquiere una mayor curvatura en la espina dorsal que la de un joven que posee un porte más lineal.
-    p.mb-5(data-aos="fade-left") El conocer y aplicar estos conocimientos en un análisis ergonómico, ofrece comprender qué puntos de variación se deben ejecutar en la prenda.
+    p.mb-5(data-aos="fade-left") El conocer y aplicar estos conocimientos en un análisis ergonómico, ofrece comprender qué puntos de variación se deben ejecutar en la prenda. 
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-6.col-md-12.col-12
         .titulo-sexto.color-acento-contenido.mb-5
           h5 Figura 1.
           | Tipos de raza
-        img.mb-3(data-aos="zoom-in")(src='@/assets/curso/tema1/img02.svg', alt='Texto alternativo figura 1: la imagen presenta tres imágenes de mujeres de diferentes razas y describe estaturas de la siguiente manera: Raza blanca: estatura 1.80m, raza americana: estatura 1.70m, raza asiática: estatura 1.60m.') 
+        img.mb-3(data-aos="zoom-in")(src='@/assets/curso/tema1/img02.svg', alt='La imagen presenta tres imágenes de mujeres de diferentes razas y describe estaturas de la siguiente manera: Raza blanca: estatura 1.80 m, raza americana: estatura 1.70 m, raza asiática: estatura 1.60 m.') 
         figcaption Nota. Tomada de Plásticamente bilingüe (2021)        
     
 
@@ -77,7 +77,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-5.p-xl-5
               h3 Cuerpo obeso:
-              p Excesivo desarrollo del tejido adiposo produciendo un aumento de peso por encima de lo que corresponde de acuerdo con la edad, talla y sexo.
+              p Excesivo desarrollo del tejido adiposo, produciendo un aumento de peso por encima de lo que corresponde de acuerdo con la edad, talla y sexo.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/3.svg')})`}")
   
 
@@ -86,7 +86,7 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 2.
           | Tipos de cuerpo
-        img(data-aos="zoom-in")(src='@/assets/curso/tema1/immg.svg', alt='la figura presenta los tipos de cuerpo: cuerpo delgado, cuerpo grueso, cuerpo obeso.')  
+        img(data-aos="zoom-in")(src='@/assets/curso/tema1/immg.svg', alt='La figura presenta los tipos de cuerpo: cuerpo delgado, cuerpo normal, cuerpo obeso.')  
         figcaption Nota. Tomada de 123rf (2021) 
 
     p.mb-5(data-aos="fade-left") Cuando se habla de porte, se refiere a la disposición física de una persona. Los siguientes son las clases de cuerpos: 
@@ -148,7 +148,7 @@
     #t_1_2.titulo-segundo
       h2 1.2 Medición y señalizado de la prenda
 
-    p.mb-4(data-aos="fade-left") El momento de la medición de la prenda se puede aplicar en dos ocasiones diferentes a saber: cuando se está construyendo desde cero o para ejecutar arreglos mediante adaptaciones de una prenda que ya esté confeccionada. Para esta ocasión se trabajará hacia la segunda opción.
+    p.mb-4(data-aos="fade-left") El momento de la medición de la prenda se puede aplicar en dos ocasiones diferentes, a saber: cuando se está construyendo desde cero o para ejecutar arreglos mediante adaptaciones de una prenda que ya esté confeccionada. Para esta ocasión se trabajará hacia la segunda opción.
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-10.col-md-12.col-12
@@ -169,7 +169,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 3.
           | Medición
-        img.img-a.img-t.mb-2(data-aos="zoom-in")(src='@/assets/curso/tema1/img07.png', alt='la fotografía presenta los hombros de una persona midiéndose una chaqueta a medio hacer, con alfileres y unas manos con un metro y realizando marcas con una tiza.  ')  
+        img.img-a.img-t.mb-2(data-aos="zoom-in")(src='@/assets/curso/tema1/img07.png', alt='La fotografía presenta los hombros de una persona midiéndose una chaqueta a medio hacer, con alfileres y unas manos con un metro y realizando marcas con una tiza.  ')  
         figcaption Nota. Tomada 1.000 cursos gratis (2019)
 
     .row.justify-content-center.align-items-center.mb-3(data-aos="fade-left")
@@ -180,7 +180,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 4.
           | Maniquí de costura 
-        img.img-a.img-t.mb-2(data-aos="zoom-in")(src='@/assets/curso/tema1/img08.png', alt='la fotografía presenta una chaqueta con marcas y sin terminar sobre un maniquí.')  
+        img.img-a.img-t.mb-2(data-aos="zoom-in")(src='@/assets/curso/tema1/img08.png', alt='La fotografía presenta una chaqueta con marcas y sin terminar sobre un maniquí.')  
         figcaption Nota. Tomada de Istock (2021)
     
     .row.justify-content-center.align-items-center(data-aos="fade-left")
@@ -191,7 +191,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 5.
           | Corrección de curvas
-        img.img-a.img-t.mb-2(data-aos="zoom-in")(src='@/assets/curso/tema1/img09.png', alt='la fotografía presenta unas manos tomando medidas en una prenda sobre una superficie plana.')  
+        img.img-a.img-t.mb-2(data-aos="zoom-in")(src='@/assets/curso/tema1/img09.png', alt='La fotografía presenta unas manos tomando medidas en una prenda sobre una superficie plana.')  
         figcaption Nota. Tomada de Istock (2021)
 
 
