@@ -26,23 +26,11 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/_4VpDjFYDPw?si=Xfsd-YAMnILNeHLC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)    
       figcaption.mb-5 Video. Análisis ergonómico del cliente
   
-    p.mb-4 El punto de partida para el análisis ergonómico, es la observación. En el momento de la toma de medidas lo primero por identificar es la silueta, luego la proporción así como la desproporción de las partes del cuerpo y, por último, la estatura que determina el tamaño de elementos como bolsillos, botones, cruces, etc., acordes con el tamaño de la figura humana. En concordancia con lo descrito, su aplicación ayudará a mejorar la imagen estética del cliente.
+    p.mb-4(data-aos="fade-left") En la siguiente imagen se pueden analizar diferentes características de los cuerpos según la raza.
 
-    .row.justify-content-center.mb-4(data-aos="fade-left") 
-      .col-lg-10.col-md-12.col-12
-        .cajaverdec.p-4
-          .row.justify-content-center 
-            .col-lg-8.col-md-12.col-12 
-              p.my-4 Aunque la humanidad ha vivido un proceso de mestizaje, existen grupos raciales con características físicas similares y un alto porcentaje de exactitud entre las personas que lo conforman, como el color de piel, estatura, grosor de cuerpo. Por ejemplo, en países europeos la estatura promedio de un hombre es de 1,80 m y su contextura es delgada, comparada con la raza latina donde el promedio de estatura de un hombre es de 1,72 m y contextura más gruesa.
-            .col-lg-3.col-md-10.col-10(data-aos="zoom-in")
-              img.img-a.img-t(src='@/assets/curso/tema1/img01.svg', alt='tema1')          
-
-    p.mb-4(data-aos="fade-left") Siguiendo con este orden de ideas, se puede analizar cómo varía la postura del cuerpo humano con el paso de los años, una persona anciana adquiere una mayor curvatura en la espina dorsal que la de un joven que posee un porte más lineal.
-    p.mb-5(data-aos="fade-left") El conocer y aplicar estos conocimientos en un análisis ergonómico, ofrece comprender qué puntos de variación se deben ejecutar en la prenda. 
-
-    .row.justify-content-center.mb-4(data-aos="fade-right")
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-6.col-md-12.col-12
-        .titulo-sexto.color-acento-contenido.mb-5
+        .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 1.
           | Tipos de raza
         img.mb-3(data-aos="zoom-in")(src='@/assets/curso/tema1/img02.svg', alt='La imagen presenta tres imágenes de mujeres de diferentes razas y describe estaturas de la siguiente manera: Raza blanca: estatura 1.80 m, raza americana: estatura 1.70 m, raza asiática: estatura 1.60 m.') 

@@ -72,7 +72,7 @@ export default {
         nombreRuta: 'tema4',
         icono: '',
         numero: '4',
-        titulo: 'Supraciclaje',
+        titulo: 'Suprareciclaje',
         desarrolloContenidos: true,
       },
       {
@@ -130,7 +130,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'Adaptaciones y modificaciones de prendas de vestir',
+      tema: '3. Modificacion y arreglos en las prendas de vestir.',
       referencia:
         'Durán, D. (2013). Adaptaciones en prendas de vestir: arreglos y adaptaciones de prendas y artículos en textil y piel (UF1032). IC Editorial.',
       tipo: 'Libro',
@@ -211,17 +211,12 @@ export default {
       referencia:
         'García, A. (2018). Sistema de reciclaje de textiles post-consumo para el desarrollo de productos de economía circular en la ciudad de Bogotá, D.C. [Tesis de maestría]. Universidad Distrital, Bogotá, Colombia.',
       link:
-        'https://repository.udistrital.edu.co/bitstream/handle/11349/13550/Garc%EDaAcostaM%F3nicaViviana2018.pdf;jsessionid=B3275F3F4782A5F7AF1F12BF67314DD5?sequence=1',
+        'https://repository.udistrital.edu.co/server/api/core/bitstreams/457beff8-a5e7-4edc-b9f9-635d4f3e0fd3/content',
     },
     {
       referencia:
         'Herramientas. (2021). Las 17 Herramientas Que Necesitas Para Abrir Un Taller De Costura.',
       link: 'https://herramientas.tv/herramientas-para-taller-de-costura/',
-    },
-    {
-      referencia:
-        'Inexmoda. (s.f.). Fashion Snoops. Sistema de Bibliotecas SENA.',
-      link: 'https://www-fashionsnoops-com.bdigital.sena.edu.co/Default.aspx',
     },
     {
       referencia: 'Istock. (2021). Imagen',
@@ -248,8 +243,10 @@ export default {
         'https://plasticamentebilingue.blogspot.com/2020/05/el-cuerpo-humano-mi-version-de-keith.html',
     },
     {
-      referencia: 'Sea. (2021). <em>Upcycling.</em>',
-      link: 'http://sea.com.uy/upcycling-una-alternativa-de-reciclaje-textil/',
+      referencia:
+        'Sea. (2021). <em>Upcycling.</em> Una alternativa de reciclaje textil.',
+      link:
+        'https://sustentabilidadenacciones.com/upcycling-una-alternativa-de-reciclaje-textil/',
     },
     {
       referencia:
@@ -261,10 +258,6 @@ export default {
         'Vestuario. (s.f.). Tiza de sastre. Para qué sirve? Como funciona?',
       link:
         'http://www.vestuariocr.com/costura-general/tecnicas-de-costura/181-tiza-de-sastre-herramientas-de-costura-para-que-sirve-como-funciona-aprende-a-coser.html',
-    },
-    {
-      referencia: 'Zicla. (2019). Residuos textiles.',
-      link: 'https://www.zicla.com/blog/residuos-textiles-reciclaje-ropa/',
     },
   ],
   creditos: [
