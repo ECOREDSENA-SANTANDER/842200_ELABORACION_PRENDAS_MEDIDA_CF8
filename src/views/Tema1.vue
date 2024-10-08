@@ -23,7 +23,7 @@
 
     figure.mb-4(data-aos="fade-right")
       .video  
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/_4VpDjFYDPw?si=Xfsd-YAMnILNeHLC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)    
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/_4VpDjFYDPw?si=TGUrAO4PyeLBL-Ii" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)    
       figcaption.mb-5 Video. Análisis ergonómico del cliente
   
     p.mb-4(data-aos="fade-left") En la siguiente imagen se pueden analizar diferentes características de los cuerpos según la raza.

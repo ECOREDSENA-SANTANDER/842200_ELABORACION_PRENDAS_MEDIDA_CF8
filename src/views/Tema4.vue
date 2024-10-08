@@ -160,8 +160,8 @@
         .titulo-sexto.color-acento-contenido.mb-5
           h5 Figura 26.
           | Hilatura
-        img.mb-4.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/tema4/img09.svg', alt='La figura contiene un esquema en el que se explica de manera detallada la manera de hacer la hilatura que consiste en el proceso químico para detectar su base y si se pueden reutilizar primero se hace una reclasificación, seguida de un deshilachado/desfibrado, cortado, estirado y peinado hasta llegar nuevamente a la hilatura.')
-        img.mb-4.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/tema4/img09.1.svg', alt='La figura contiene un esquema en el que se explica de manera detallada la manera de hacer la hilatura que consiste en el proceso químico para detectar su base y si se pueden reutilizar primero se hace una reclasificación, seguida de un deshilachado/desfibrado, cortado, estirado y peinado hasta llegar nuevamente a la hilatura.')
+        img.mb-4.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/tema4/img09.svg', alt='La figura contiene un esquema en el que se explica de manera detallada la manera de hacer la hilatura que consiste en el proceso químico para detectar su base y si se pueden reutilizar, primero se hace una reclasificación, seguida de un deshilachado/desfibrado, cortado, estirado y peinado hasta llegar nuevamente a la hilatura.')
+        img.mb-4.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/tema4/img09.1.svg', alt='La figura contiene un esquema en el que se explica de manera detallada la manera de hacer la hilatura que consiste en el proceso químico para detectar su base y si se pueden reutilizar, primero se hace una reclasificación, seguida de un deshilachado/desfibrado, cortado, estirado y peinado hasta llegar nuevamente a la hilatura.')
         figcaption Nota. Tomada de García (2018)
 
 

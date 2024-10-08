@@ -215,7 +215,7 @@ export default {
     },
     {
       referencia:
-        'Herramientas. (2021). Las 17 Herramientas Que Necesitas Para Abrir Un Taller De Costura.',
+        'Herramientas. (2021). Las 17 herramientas que necesitas para abrir un taller de costura.',
       link: 'https://herramientas.tv/herramientas-para-taller-de-costura/',
     },
     {
@@ -238,7 +238,7 @@ export default {
     },
     {
       referencia:
-        'Plásticamente bilingüe. (2021). EL CUERPO HUMANO: MI VERSIÓN DE KEITH HARING.',
+        'Plásticamente bilingüe. (2021). El cuerpo humano: mi versión de Keith Haring.',
       link:
         'https://plasticamentebilingue.blogspot.com/2020/05/el-cuerpo-humano-mi-version-de-keith.html',
     },
@@ -250,12 +250,12 @@ export default {
     },
     {
       referencia:
-        'Skarlet Costura. (2021). Técnicas de costura: Cómo descoser.',
+        'Skarlet Costura. (2021). Técnicas de costura: cómo descoser.',
       link: 'https://skarlett.es/como-descoser/',
     },
     {
       referencia:
-        'Vestuario. (s.f.). Tiza de sastre. Para qué sirve? Como funciona?',
+        'Vestuario. (s.f.). Tiza de sastre. ¿Para qué sirve? ¿Cómo funciona?',
       link:
         'http://www.vestuariocr.com/costura-general/tecnicas-de-costura/181-tiza-de-sastre-herramientas-de-costura-para-que-sirve-como-funciona-aprende-a-coser.html',
     },
@@ -272,7 +272,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de línea de producción',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -283,40 +283,40 @@ export default {
           nombre: 'Ledy Johana Velásquez Hernández',
           cargo: 'Experto temático',
           centro:
-            'Regional Antioquia - Centro de formacion en diseño, confección y moda',
+            'Centro de formación en diseño, confección y moda - Regional Antioquia',
         },
         {
           nombre: 'Paola Angélica Castro Salazar',
           cargo: 'Experto temático',
           centro:
-            'Regional Antioquia - Centro de formacion en diseño, confección y moda',
+            'Centro de formación en diseño, confección y moda - Regional Antioquia',
         },
         {
           nombre: 'Paula Andrea Taborda Ortiz',
           cargo: 'Diseñador instruccional',
-          centro: 'Regional distrito capital - Centro de diseño y metrología',
+          centro: 'Centro de diseño y metrología - Regional distrito capital',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Asesor pedagógico',
           centro:
-            'Regional Santander - Centro industrial del diseño y la manufactura',
+            'Centro industrial del diseño y la manufactura - Regional Santander',
         },
         {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Revisora metodológica y pedagógica',
-          centro: 'Centro de diseño y metrología',
+          centro: 'Centro de diseño y metrología - Regional Distrito Capital',
         },
         {
           nombre: 'José Gabriel Ortiz Abella',
           cargo: 'Corrector de estilo',
           centro:
-            'Regional Distrito Capital - Centro para la industria de la comunicación gráfica',
+            'Centro para la industria de la comunicación gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Carolina Jiménez Suescún',
           cargo: 'Evaluadora instruccional',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -326,17 +326,17 @@ export default {
         {
           nombre: 'Julian Fernando Vanegas Vega',
           cargo: 'Diseñador de contenidos digitales',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Pedro Alonso Bolivar González',
           cargo: 'Desarrollador <em>full stack</em>',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Maria Alejandra Vera Briceño',
           cargo: 'Animadora y productora multimedia',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -346,12 +346,12 @@ export default {
         {
           nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Validadora de recursos educativos digitales',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Erika Fernanda Mejía Pinzón',
           cargo: 'Validadora para contenidos inclusivos y accesibles',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
