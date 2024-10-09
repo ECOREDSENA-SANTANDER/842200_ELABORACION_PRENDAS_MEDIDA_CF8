@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Grupo_1065379" data-name="Grupo 1065379" transform="translate(-1335 -862)">
+    <g id="Grupo_1065158" data-name="Grupo 1065158" transform="translate(1335 910) rotate(-90)">
+      <g id="Light_Button_Secondary_Icon" data-name="Light/Button/Secondary/Icon">
+        <rect id="Rectangle" width="48" height="48" rx="24" fill="#f5947a"/>
+      </g>
+      <path id="Path" d="M0,1.5,1.63,0,8,6,1.63,12,0,10.5,4.8,6Z" transform="translate(30 20) rotate(90)" fill="#12263f"/>
+    </g>
+  </g>
+</svg>
